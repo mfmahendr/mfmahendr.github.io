@@ -2,78 +2,1117 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Coming Soon — PortoNews</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Old+Standard+TT&display=swap"
-    rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body {
-      font-family: "Old Standard TT", serif;
-      background-image: linear-gradient(
-        to right,
-        rgba(255, 210, 0, 0.4),
-        rgba(200, 160, 0, 0.1) 11%,
-        rgba(0, 0, 0, 0) 35%,
-        rgba(200, 160, 0, 0.1) 65%
-      );
-      box-shadow: inset 0 0 75px rgba(255, 210, 0, 0.3),
-        inset 0 0 10px rgba(255, 210, 0, 0.4),
-        inset 0 0 3px rgba(220, 121, 0, 0.355);
-      color: #333;
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fadhil PortoNews</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Old+Standard+TT:wght@400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    .font-logo {
-      font-family: "Old English Text MT", "Libre Baskerville", serif;
-    }
-
-    .font-heading {
-      font-family: "Old English Text MT", "Libre Baskerville", serif;
-    }
-
-    .newspaper-stamp {
-      box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
-    }
-
-    .torn-paper-bottom {
-      position: absolute;
-      top: -20px;
-      left: 0;
-      right: 0;
-      height: 20px;
-      background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0 Q 5 5, 10 0 T 20 5 T 30 0 T 40 5 T 50 0 T 60 5 T 70 0 T 80 5 T 90 0 T 100 5 V 20 H 0 Z' fill='%23f3e5d2'/%3E%3C/svg%3E");
-      background-size: 100% 100%;
-    }
-  </style>
 </head>
 
-<body class="min-h-screen flex flex-col justify-center items-center px-4 py-16 relative">
-  <div class="torn-paper-bottom"></div>
+<body class="font-serif aged-paper-tone">
+    <header class="border-b-4 border-black relative">
+        <div id="home" class="container mx-auto px-4 py-6">
+            <div class="text-center">
+                <div id="newspaper-date"
+                    class="newspaper-date absolute top-2 right-4 bg-amber-900 text-amber-100 px-3 py-1 text-sm font-bold">
+                </div>
+                <div id="newspaper-lang"
+                    class="newspaper-lang absolute top-2 left-4 bg-amber-900 text-amber-100 px-3 py-1 text-sm font-bold">
+                    <span class="text-xs">ENGLISH EDITION</span>
+                </div>
 
-  <div class="absolute top-6 right-6 bg-amber-900 text-amber-100 px-3 py-1 text-sm font-bold newspaper-stamp" id="today-date">
-  </div>
-  <div class="absolute top-6 left-6 bg-amber-900 text-amber-100 px-3 py-1 text-sm font-bold newspaper-stamp">
-    FREE
-  </div>
+                <!-- Main Title -->
+                <h1 class="text-5xl md:text-8xl font-bold font-logo text-amber-900 tracking-tight leading-tight">
+                    Fadhil PortoNews
+                </h1>
+                <p class="text-sm italic mt-1">EST. 2025 - A PROFILE WEBSITE</p>
 
-  <main class="bg-amber-50 border-4 border-black shadow-[8px_8px_0_0_rgba(0,0,0,0.2)] px-8 py-12 max-w-2xl text-center relative z-10">
-    <h1 class="text-5xl md:text-6xl font-logo text-amber-900 tracking-tight mb-6">COMING SOON</h1>
-    <p class="text-lg leading-relaxed font-serif text-black">
-      Heads up — this profile website project is on its way. Stay tuned for the launch of <span class="font-heading">Fadhil PortoNews</span>. This page is a placeholder, but soon it will be filled with some content that showcases my skills and projects.
-    </p>
+                <hr class="border-t-2 border-black mt-4 w-full">
+            </div>
 
-  </main>
+            <article class="mt-8 flex flex-col md:flex-row justify-between items-center gap-8">
+                <section
+                    class="md:w-1/2 relative bg-amber-50 px-6 py-20 shadow-[6px_6px_0_0_rgba(0,0,0,0.15)] transform hover:rotate-[0.5deg] transition-transform duration-300">
+                    <div
+                        class="absolute -left-3 w-12 h-12 bg-amber-50 flex items-center justify-center text-8xl font-heading text-amber-900">
+                        “
+                    </div>
 
-  <script>
-    // Tanggal otomatis
-    const dateContainer = document.getElementById("today-date");
-    const now = new Date();
-    const options = { year: "numeric", month: "long", day: "numeric" };
-    dateContainer.textContent = now.toLocaleDateString("en-US", options).toUpperCase();
-  </script>
+                    <div class="pl-4 mt-2">
+                        <h3 class="text-3xl md:text-4xl tracking-tight leading-tight">
+                            <span class="text-amber-900">PROGRAMMER UNVEILS</span><br>
+                            <span class="italic">EXCITING PORTFOLIO</span>
+                        </h3>
+
+                        <div class="mt-4 pt-4">
+                            <p class="text-lg leading-relaxed font-serif">
+                                In this edition, we take a closer look at the work of
+                                <span class="font-bold">M. Fadhil Mahendra</span>, a backend developer with a clear
+                                approach to system structure and reliability. Equipped with a strong understanding of
+                                cloud fundamentals, he designs services ready for scalable, cloud-based environments.
+                            </p>
+
+                            <div class="mt-4 flex items-center">
+                                <span class="bg-amber-100 border border-black px-3 py-1 text-sm italic mr-3">
+                                    <a href="#about">Continued on Page <span class="filler-text ink-blot">A6</span>
+                                        →</a>
+                                </span>
+                                <!-- <span class="text-xs uppercase tracking-widest text-amber-900">
+                                    <span class="inline-block w-2 h-2 bg-amber-900 rounded-full mr-1"></span>
+                                    SCROLL TO READ
+                                </span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="mt-6 flex justify-center">
+                        <div class="animate-bounce border-2 border-black rounded-full p-2">
+                            <svg class="w-5 h-5 text-amber-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                            </svg>
+                        </div>
+                    </div> -->
+                </section>
+                <section
+                    class="menu md:w-1/2 relative bg-amber-50 p-6 border-4 border-black shadow-[8px_8px_0_0_rgba(0,0,0,0.2)] transform rotate-[-0.5deg] hover:rotate-0 transition-transform duration-300">
+                    <!-- Newspaper corner fold effect -->
+                    <div
+                        class="absolute top-0 right-0 w-0 h-0 border-l-[60px] border-l-transparent border-t-[60px] border-t-amber-700">
+                    </div>
+                    <h4
+                        class="text-2xl uppercase tracking-widest pb-3 border-b-2 border-black flex items-center justify-center">
+                        CONTENT GUIDE
+                    </h4>
+                    <ol>
+                        <!-- ABOUT -->
+                        <li class="menu-item">
+                            <a href="#about" class="group flex items-center">
+                                <span
+                                    class="text-lg font-bold flex items-center transition-opacity duration-300 group-hover:w-0">
+                                    <span>ABOUT</span>
+                                    <span class="mx-2">—</span>
+                                </span>
+                                <span
+                                    class="text-base italic text-amber-900 group-hover:text-lg group-hover:underline group-hover:font-bold group-hover:not-italic transition-all duration-300">
+                                    Profile of the Week
+                                </span>
+                            </a>
+                            <ol class="sub-menu text-base">
+                                <li class="menu-item">
+                                    <a href="#status">Availability Status — Breaking News</a>
+                                </li>
+                            </ol>
+                        </li>
+
+                        <!-- INTERESTS -->
+                        <li class="menu-item">
+                            <a href="#interests" class="group flex items-center">
+                                <span
+                                    class="text-lg font-bold flex items-center transition-opacity duration-300 group-hover:w-0">
+                                    <span>INTERESTS</span>
+                                    <span class="mx-2">—</span>
+                                </span>
+                                <span
+                                    class="text-base italic text-amber-900 group-hover:text-lg group-hover:underline group-hover:font-bold group-hover:not-italic transition-all duration-300">
+                                    The Editorial Column
+                                </span>
+                            </a>
+                            <ol class="sub-menu text-base">
+                                <li class="menu-item">
+                                    <a href="#interests">Interests and Pursuits</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#learning">A Look Into What Fadhil is Learning Right Now</a>
+                                </li>
+                            </ol>
+                        </li>
+
+                        <!-- SKILLS -->
+                        <li class="menu-item">
+                            <a href="#skills" class="group flex items-center">
+                                <span
+                                    class="text-lg font-bold flex items-center transition-opacity duration-300 group-hover:w-0">
+                                    <span>SKILLS</span>
+                                    <span class="mx-2">—</span>
+                                </span>
+                                <span
+                                    class="text-base italic text-amber-900 group-hover:text-lg group-hover:underline group-hover:font-bold group-hover:not-italic transition-all duration-300">
+                                    Capability Column
+                                </span>
+                            </a>
+                            <ol class="sub-menu text-base">
+                                <li class="menu-item">
+                                    <a href="#classifieds">Technical & Soft Skills — Classifieds</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#tools">Tools & Technologies — Stamp Exchange</a>
+                                </li>
+                            </ol>
+                        </li>
+
+                        <!-- PROJECTS -->
+                        <li class="menu-item">
+                            <a href="#projects" class="group flex items-center">
+                                <span
+                                    class="text-lg font-bold flex items-center transition-opacity duration-300 group-hover:w-0">
+                                    <span>PROJECTS</span>
+                                    <span class="mx-2">—</span>
+                                </span>
+                                <span
+                                    class="text-base italic text-amber-900 group-hover:text-lg group-hover:underline group-hover:font-bold group-hover:not-italic transition-all duration-300">
+                                    Featured Articles
+                                </span>
+                            </a>
+                        </li>
+
+                        <!-- CONTACT -->
+                        <li class="menu-item">
+                            <a href="#contact" class="group flex items-center">
+                                <span
+                                    class="text-lg font-bold flex items-center transition-opacity duration-300 group-hover:w-0">
+                                    <span>CONTACT</span>
+                                    <span class="mx-2">—</span>
+                                </span>
+                                <span
+                                    class="text-base italic text-amber-900 group-hover:text-lg group-hover:underline group-hover:font-bold group-hover:not-italic transition-all duration-300">
+                                    Contact the Press
+                                </span>
+                            </a>
+                            <ol class="sub-menu text-base">
+                                <li class="menu-item">
+                                    <a href="#social-pages">Social Pages</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#mail-in">Mail-In Correspondence</a>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                </section>
+            </article>
+        </div>
+    </header>
+
+    <nav class="bg-amber-900 text-amber-100 sticky top-0 z-10 shadow-md hidden" id="main-nav">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a href="#home" class="text-xl font-bold font-logo">Fadhil PortoNews</a>
+
+                <!-- Main Navigation -->
+                <div class="hidden md:flex space-x-8 relative">
+                    <a href="#about" class="nav-link group" data-alt-title="Profile of the Week">
+                        <span class="relative z-10">ABOUT</span>
+                        <svg class="nav-underline" viewBox="0 0 152.9 43.4">
+                            <path
+                                d="M151.9,13.6c0,0,3.3-9.5-85-8.3c-97,1.3-58.3,29-58.3,29s9.7,8.1,69.7,8.1c68.3,0,69.3-23.1,69.3-23.1 s1.7-10.5-14.7-18.4" />
+                        </svg>
+                        <span class="alt-title">Profile of the Week</span>
+                    </a>
+
+                    <a href="#skills" class="nav-link group" data-alt-title="Capability Columns">
+                        <span class="relative z-10">SKILLS</span>
+                        <svg class="nav-underline" viewBox="0 0 152.9 43.4">
+                            <path
+                                d="M151.9,13.6c0,0,3.3-9.5-85-8.3c-97,1.3-58.3,29-58.3,29s9.7,8.1,69.7,8.1c68.3,0,69.3-23.1,69.3-23.1 s1.7-10.5-14.7-18.4" />
+                        </svg>
+                        <span class="alt-title">Capability Columns</span>
+                    </a>
+
+                    <!-- <a href="#tools" class="nav-link group" data-alt-title="Stamp Exchange">
+                        <span class="relative z-10">TOOLS</span>
+                        <svg class="nav-underline" viewBox="0 0 152.9 43.4">
+                            <path
+                                d="M151.9,13.6c0,0,3.3-9.5-85-8.3c-97,1.3-58.3,29-58.3,29s9.7,8.1,69.7,8.1c68.3,0,69.3-23.1,69.3-23.1 s1.7-10.5-14.7-18.4" />
+                        </svg>
+                        <span class="alt-title">Stamp Exchange</span>
+                    </a> -->
+
+                    <a href="#projects" class="nav-link group" data-alt-title="Feature Case Studies">
+                        <span class="relative z-10">PROJECTS</span>
+                        <svg class="nav-underline" viewBox="0 0 152.9 43.4">
+                            <path
+                                d="M151.9,13.6c0,0,3.3-9.5-85-8.3c-97,1.3-58.3,29-58.3,29s9.7,8.1,69.7,8.1c68.3,0,69.3-23.1,69.3-23.1 s1.7-10.5-14.7-18.4" />
+                        </svg>
+                        <span class="alt-title">Featured Articles</span>
+                    </a>
+
+                    <!-- <a href="#certificates" class="nav-link group" data-alt-title="Stamp Exchange">
+                        <span class="relative z-10">CERTIFICATES</span>
+                        <svg class="nav-underline" viewBox="0 0 152.9 43.4">
+                            <path
+                                d="M151.9,13.6c0,0,3.3-9.5-85-8.3c-97,1.3-58.3,29-58.3,29s9.7,8.1,69.7,8.1c68.3,0,69.3-23.1,69.3-23.1 s1.7-10.5-14.7-18.4" />
+                        </svg>
+                        <span class="alt-title">CERTIFICATES</span>
+                    </a> -->
+
+                    <a href="#contact" class="nav-link group" data-alt-title="Letters to the Editor">
+                        <span class="relative z-10">CONTACT</span>
+                        <svg class="nav-underline" viewBox="0 0 152.9 43.4">
+                            <path
+                                d="M151.9,13.6c0,0,3.3-9.5-85-8.3c-97,1.3-58.3,29-58.3,29s9.7,8.1,69.7,8.1c68.3,0,69.3-23.1,69.3-23.1 s1.7-10.5-14.7-18.4" />
+                        </svg>
+                        <span class="alt-title">Letters to the Editor</span>
+                    </a>
+                </div>
+
+                <button class="md:hidden focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 max-w-6xl relative">
+        <div class="grid grid-cols-1 md:grid-cols-6 gap-6 border-black">
+            <!-- About Me -->
+            <div id="about" class="md:col-span-4 p-4">
+                <h5 class="font-bold uppercase tracking-widest">ABOUT</h5>
+                <h2 class="font-bold uppercase my-4">
+                    <span class="text-5xl">Fadhil |</span> Profile of the Week
+                </h2>
+
+                <div class="relative leading-relaxed mb-4">
+                    <div class="float-right ml-6 mb-4 w-48 md:w-1/4 sm:w-1/2 border border-black p-1">
+                        <img src="assets/images/illustration/fadhil.png" alt="Profile" class="w-full h-auto object-cover" />
+                        <div class="p-2 border-t border-black text-center text-xs italic">
+                            <p>M. FADHIL MAHENDRA</p>
+                        </div>
+                    </div>
+                    <article class="newspaper-columns newspaper-columns-2 text-justify text-base">
+                        <p>
+                            Meet <strong>M. Fadhil Mahendra</strong>, a curious mind with degree from
+                            <strong>Universitas Gadjah Mada</strong>, majoring in <strong>Information
+                                Engineering</strong>. He has a strong passion for backend development
+                            and cloud computing, with a growing interest in the world of DevOps.
+                        </p>
+                        <p>
+                            With hands-on experience in building scalable backend systems and cloud
+                            infrastructure,
+                            Fadhil is aiming for a career as a <strong>Backend Developer</strong> or a
+                            <strong>Cloud Engineer</strong>. His work is grounded in clarity, reliability, and efficient
+                            execution.
+
+
+                        </p>
+                        <p>
+                            He works well both independently and in collaborative environments with his strong
+                            sense of <em>responsibility</em>. As a
+                            <strong>generalist</strong>, he can bridge gaps between technical execution and
+                            business
+                            priorities. He’s the kind of developer who cares as much about "why" as he does
+                            "how".
+                        </p>
+                        <p>
+                            Outside of work, he explores new tools or reads to stay sharp.
+                        </p>
+                    </article>
+                </div>
+                <button
+                    class="mr-2 mb-4 bg-amber-800 hover:bg-amber-900 text-amber-100 px-6 py-2 rounded-none border border-black shadow-md transition-all duration-300 transform hover:scale-105">
+                    <a href="#contact">HIRE</a>
+                </button>
+            </div>
+            <section id="status"
+                class="border-2 border-black md:border-t-0 md:border-r-0 md:border-b-0 p-4 h-full flex flex-col md:col-span-2">
+                <h5 class="text-center font-bold uppercase tracking-widest">AVAILABILITY STATUS</h5>
+                <h2 class="font-bold uppercase tracking-widest text-center my-4 blurred-ink">
+                    Breaking <span class="ink-blot">News</span>
+                </h2>
+                <div class="flex-1 flex flex-row md:flex-col items-center gap-4">
+                    <div class="pb-3">
+                        <img src="/assets/images/illustration/opentowork.png" alt="Developer declares ready to work"
+                            class="object-cover h-auto md:max-w-1 sm:w-60 mx-auto">
+                    </div>
+                    <article class="news-article text-sm leading-relaxed flex-1">
+                        <h3 class="font-bold text-lg pb-1">
+                            LOCAL DEV DECLARES “READY TO WORK!”
+                        </h3>
+                        <p class="pb-2">
+                            An engineer steps forward with confidence, sends a bold
+                            callout:
+                            <span class="font-bold italic">“I'm ready. Mail me now.”</span>
+                            Sources confirm flexibility for both
+                            <span class="underline">Work From Anywhere</span> and
+                            <span class="underline">Office Deployments</span>.
+                        </p>
+                    </article>
+                </div>
+            </section>
+        </div>
+
+        <div class="grid md:grid-cols-12 gap-3">
+            <div class="md:col-span-4 flex flex-col">
+                <section id="interests" class="p-6 border-l-2 border-black border-b-2 relative pb-4">
+                    <div class="text-center mb-6 relative">
+                        <h5 class="text-center font-bold uppercase tracking-widest">PROFESSIONAL INTERESTS</h5>
+                        <h2 class="text-3xl inline-block px-6 relative z-100">
+                            <span class="text-amber-900">THE EDITORIAL COLUMN</span>
+                        </h2>
+                        <p class="text-xs italic mt-1">Published this 6th Day of July, 2025</p>
+                    </div>
+                    <div class="font-serif text-sm leading-relaxed">
+                        <p
+                            class="first-letter:float-left first-letter:text-6xl first-letter:font-heading first-letter:mr-2 first-letter:mt-1 first-letter:text-amber-900">
+                            As part of mine ongoing exploration in modern software architecture, I do focus upon
+                            designing
+                            resilient, scalable systems that align with current industry trends and demands.
+                        </p>
+
+                        <h3 class="text-xl mt-8 mb-4 border-b border-dotted border-black pb-1 flex items-center">
+                            Interests & Pursuits
+                        </h3>
+
+                        <ul class="space-y-3 pl-4">
+                            <li class="relative pl-6">
+                                <span class="absolute left-0 text-amber-900">◆</span>
+                                <strong class="font-bold">Cloud-native backend development:</strong> Building robust
+                                backend systems with microservices and container orchestration.
+                            </li>
+                            <li class="relative pl-6">
+                                <span class="absolute left-0 text-amber-900">◆</span>
+                                <strong class="font-bold">DevOps automation & containerization:</strong> Automating
+                                CI/CD pipelines using tools like GitHub Actions, Docker, and Kubernetes.
+                            </li>
+                            <li class="relative pl-6">
+                                <span class="absolute left-0 text-amber-900">◆</span>
+                                <strong class="font-bold">System observability & serverless architecture:</strong>
+                                Implementing tracing, logging, and metrics to monitor distributed systems.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <article id="learning" class="p-6 text-sm border-l-2 border-b-2 border-black relative">
+                    <h5 class="font-bold uppercase tracking-widest">What I Currently Learn?</h5>
+                    <h2 class="text-2xl pb-2 mb-4">
+                        A Look Into What Fadhil is Learning Right Now
+                    </h2>
+
+                    <img src="/assets/images/illustration/learning-illustration.png" alt="A Man Learning Things"
+                        class="w-56 object-cover mb-4 mx-auto">
+                    <p class="font-serif leading-relaxed mb-6">
+                        A software developer, M. Fadhil Mahendra, with ongoing interest in Cloud Computing, backend
+                        development, and DevOps automation, is currently
+                        concentrating on a set of technical topics related to those areas. The focus includes several
+                        specific areas aimed at strengthening understanding and implementation skills within the
+                        subject.
+                    </p>
+
+                    <div class="mb-6">
+                        <h3 class="text-xl mb-3 flex items-center">
+                            Topics Under Exploration:
+                        </h3>
+
+                        <ul class="space-y-3 pl-8 font-serif">
+                            <li class="relative">
+                                Migration from monolithic to microservices architecture
+                            </li>
+                            <li class="relative">
+                                Kubernetes for container orchestration
+                            </li>
+                            <li>
+                                System observability tools in backend app
+                            </li>
+                            <!-- <li class="relative">
+                                Subtopic X
+                            </li> -->
+                        </ul>
+                    </div>
+
+                    <p class="font-serif leading-relaxed">
+                        This exploration reflects a broader intent to deepen knowledge and maintain
+                        alignment with evolving best practices and tooling in Cloud Computing, backend
+                        development, and DevOps Automation. He said,
+                        <span class="italic">“I’m excited to see where this path leads. Whether it's personal projects
+                            or professional challenges, I’m ready to apply what I’ve learned.”</span>
+                    </p>
+
+                    <!-- <div class="absolute top-2 left-2 w-8 h-8 border-t-2 border-l-2 border-amber-800"></div>
+                                        <div class="text-right text-sm italic mb-2">
+                        [City, Date] —
+                    </div> -->
+                </article>
+                <div class="mt-6 border-2 border-black p-4 bg-amber-100 text-center relative vintage-ad">
+                    <p class="text-xs uppercase font-bold mb-1">ADVERTISEMENT</p>
+                    <div class="border border-black p-2 relative">
+                        <p class="text-sm italic">"Seeking backend expertise?"</p>
+                        <p class="text-lg font-bold mt-1">ENGAGE THIS DEVELOPER</p>
+                        <p class="text-xs mt-1">
+                            Available for consultation and development work
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <section id="skills" class="md:col-span-8">
+                <div class="relative py-4">
+                    <h5 class="font-bold uppercase tracking-widest mb-2">SKILLS</h5>
+                    <h2 class="text-3xl font-bold uppercase">CAPABILITY COLUMNS</h2>
+                    <div class="absolute bottom-0 left-0 right-0 flex">
+                        <div class="h-1 bg-black w-8"></div>
+                        <div class="h-1 bg-black flex-grow"></div>
+                        <div class="h-1 bg-black w-8"></div>
+                        <div class="h-1 bg-black flex-grow"></div>
+                        <div class="h-1 bg-black w-8"></div>
+                    </div>
+                </div>
+
+                <article id="classifieds" class="border-2 border-black shadow-[4px_4px_0_0_rgba(0,0,0,0.2)] relative">
+
+                    <h3
+                        class="text-3xl font-heading uppercase tracking-wider mb-2 text-amber-900 border-b-2 border-black pb-2 text-center px-8">
+                        CLASSIFIEDS
+                    </h3>
+
+                    <div>
+                        <section class="py-0">
+                            <h5 class="font-bold uppercase tracking-widest m-2">TECHNICAL SKILLS</h5>
+                            <h3 class="font-bold tracking-widest uppercase m-2">
+                                SERVICES OFFERED
+                            </h3>
+
+                            <div
+                                class="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-black text-[0.83rem] leading-tight">
+                                <!-- Backend -->
+                                <article class="service-offer">
+                                    <h4 class="block w-full bg-black text-white text-xl px-1 py-2 mb-1">
+                                        Need a <strong>BACKEND DEVELOPER</strong>?
+                                    </h4>
+                                    <p>Clean APIs with solid architecture, thoughtful validation, and
+                                        real-world edge case handling. Docs included. Contact me quickly!</p>
+                                    <!-- <span
+                                        class="inline-block mt-1 text-[0.65rem] py-0.5"><strong>Let’s talk</strong></span> -->
+                                </article>
+
+                                <!-- Cloud -->
+                                <article class="service-offer">
+                                    <h4 class="block w-full bg-black text-white text-xl px-1 py-2 mb-1">
+                                        <strong>Cloud Computing</strong> Solutions...
+                                    </h4>
+                                    <p>GCP and AWS specialist. Will build a cost-effective, scalable cloud
+                                        infrastructure for your project. From serverless to containerized, I’ve got
+                                        you covered.</p>
+                                    </p>
+                                    <!-- <span
+                                        class="inline-block mt-1 text-[0.65rem] py-0.5"><strong></strong></span> -->
+                                </article>
+
+                                <!-- DevOps -->
+                                <article class="service-offer">
+                                    <h4 class="block w-full bg-black text-white text-xl px-1 py-2 mb-1">
+                                        <strong>DevOps Engineer</strong> Needed?
+                                    </h4>
+                                    <p>GitOps workflows. Secure CI/CD. Fewer outages, faster deployments.</p>
+                                    <!-- <span
+                                        class="inline-block mt-1 text-[0.65rem] py-0.5"><strong></strong></span> -->
+                                </article>
+                            </div>
+                        </section>
+
+                        <!-- === ANNOUNCEMENTS AND NOTICES ============================= -->
+                        <section classs="py-0">
+                            <h5 class="font-bold uppercase tracking-widest m-2">SOFT SKILLS</h5>
+                            <h3 class="font-bold tracking-widest uppercase m-2">
+                                ANNOUNCEMENTS AND NOTICES
+                            </h3>
+
+                            <div
+                                class="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-black text-[0.83rem] leading-tight">
+                                <article class="service-offer">
+                                    <h4 class="block w-full bg-black text-white text-xl font-bold px-1 py-2 mb-1">
+                                        Ready to Learn, Set to Shift
+                                    </h4>
+                                    <p>Brings speed to skill-building. <strong>Learns fast, adapts faster</strong>. New
+                                        frameworks, teams, or domains aren't a roadblock.</p>
+                                    <!-- <span
+                                        class="inline-block mt-1 text-[0.65rem] py-0.5"><strong></strong></span> -->
+                                </article>
+
+                                <article class="service-offer">
+                                    <h4 class="block w-full bg-black text-white text-xl px-1 py-2 mb-1">
+                                        This Engineer Is A <strong>Critical Thinker</strong>
+                                    </h4>
+                                    <p>Now available: a thoughtful engineer. Brings practical thinking by combining
+                                        logical analysis with
+                                        real-world constraints. Identifies edge cases before they break and connects
+                                        dots others miss.</p>
+                                    <!-- <span
+                                        class="inline-block mt-1 text-[0.65rem] py-0.5"><strong></strong></span> -->
+                                </article>
+
+                                <article class="service-offer">
+                                    <h4 class="block w-full bg-black text-white text-xl font-bold px-1 py-2 mb-1">
+                                        Sees what others skip
+                                    </h4>
+                                    <p>He notices things others miss. Consistency in code and clarity in setup aren’t extras—they’re part of the job. Every little thing is the big picture. His
+                                        <strong>attention to detail</strong> is your project`s safety net.
+                                    </p>
+                                    <!-- <span
+                                        class="inline-block mt-1 text-[0.65rem] py-0.5"><strong></strong></span> -->
+                                </article>
+
+                                <article class="service-offer">
+                                    <h4 class="block w-full bg-black text-white text-xl px-1 py-2 mb-1">
+                                        <strong>LANGUAGES</strong> SPOKEN
+                                    </h4>
+                                    <p>Now available for global teams. <strong>English/Indonesian</strong> fluent. Bridges gaps between teams and timezones.</p>
+                                    <!-- <span
+                                        class="inline-block mt-1 text-[0.65rem] py-0.5"><strong></strong></span> -->
+                                </article>
+                            </div>
+                        </section>
+
+                    </div>
+
+
+                    <!-- Footer -->
+                    <!-- <div class="mt-6 pt-3 border-t-2 border-dotted border-black text-xs text-center italic">
+                        <p>Interested? Contact our press at <span class="font-bold"><a href="#contact">page
+                                    E1</a></span> for inquiries</p>
+                    </div> -->
+                </article>
+
+                <article id="tools" class="relative z-0 border-2 border-black p-6 shadow-[8px_8px_0_0_rgba(0,0,0,0.2)]">
+                    <!-- Decorative elements -->
+                    <div class="absolute top-2 left-2 w-12 h-12 border-t-4 border-l-4 border-amber-800"></div>
+
+                    <!-- Header -->
+                    <div class="relative z-10 text-center mb-8">
+                        <h5 class="text-center font-bold uppercase tracking-widest">TECH AND TOOLS</h5>
+                        <h3
+                            class="text-3xl font-heading uppercase tracking-wider mb-2 text-amber-900 border-b-2 border-black pb-2 inline-block px-8">
+                            STAMP EXCHANGE
+                        </h3>
+                        <p class="text-base italic text-amber-800 max-w-2xl mx-auto">
+                            <span class="inline-block border-b border-dotted border-amber-800 pb-1">Stamps available
+                                for trade. Let’s trade—with project role, your ideas, or real work.</span>
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+                        <!-- Column 1: Programming Languages -->
+                        <div>
+                            <h4>
+                                <span class="stamp-icon"><i class="fa-solid fa-code"></i></span>
+                                Programming Languages
+                            </h4>
+                            <div class="stamp-container">
+                                <!-- Golang -->
+                                <div class="stamp-responsive">
+                                    <div loading="lazy" class="stamp-logo" style="background: #00ADD8">
+                                        <img src="./assets/images/tools/golang-white.svg" alt="">
+                                    </div>
+                                    <p class="stamp-text" style="color:#00ADD8;">
+                                        <span class="stamp-title">GOLANG</span>
+                                        <span class="stamp-key shadow-vertical rotate-right">Prog. Language</span>
+                                    </p>
+                                </div>
+
+                                <!-- JavaScript -->
+                                <div class="stamp-responsive">
+                                    <div loading="lazy" class="stamp-logo" style="background: #000">
+                                        <img src="./assets/images/tools/javascript-fill.svg" alt="Javascript Logo">
+                                    </div>
+                                    <p class="stamp-text" style="color: #000;">
+                                        <span class="stamp-title">JAVASCRIPT</span>
+                                        <span class="stamp-key">Prog. Language</span>
+                                    </p>
+                                </div>
+
+                                <!-- Python -->
+                                <div class="stamp-responsive">
+                                    <div loading="lazy" class="stamp-logo" style="background: #3776ab">
+                                        <img src="./assets/images/tools/python-white.svg" alt="Python Logo">
+                                    </div>
+                                    <p class="stamp-text" style="color:#3776ab;">
+                                        <span class="stamp-title">PYTHON</span>
+                                        <span class="stamp-key">Prog. Language</span>
+                                    </p>
+                                </div>
+
+                                <!-- C# -->
+                                <div class="stamp-responsive">
+                                    <div class="stamp-logo" style="background: #662579">
+                                        <img src="./assets/images/tools/csharp-white.svg" alt="C# Logo">
+                                    </div>
+                                    <p class="stamp-text" style="color:#662579;">
+                                        <span class="stamp-title">C#</span>
+                                        <span class="stamp-key shadow-vertical rotate-left">Prog. Language</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Column 2: Databases -->
+                        <div>
+                            <h4>
+                                <i class="fa-solid fa-database"></i>
+                                Databases
+                            </h4>
+                            <div class="stamp-container">
+                                <!-- MySQL -->
+                                <div class="stamp-responsive">
+                                    <div class="stamp-logo" style="background: #006278">
+                                        <img src="./assets/images/tools/mysql-white.svg" alt="MySQL Logo">
+                                    </div>
+                                    <p class="stamp-text" style="color:#00758f;">
+                                        <span class="stamp-title">MYSQL</span>
+                                        <span class="stamp-key">Database</span>
+                                    </p>
+                                </div>
+
+                                <!-- PostgreSQL -->
+                                <div class="stamp-responsive">
+                                    <div class="stamp-logo" style="background: #3c719c">
+                                        <img src="./assets/images/tools/postgresql-white.svg" alt="PostgreSQ Logo">
+                                    </div>
+                                    <p class="stamp-text" style="color:#336791;">
+                                        <span class="stamp-title">POSTGRESQL</span>
+                                        <span class="stamp-key shadow-vertical rotate-right-2">Database</span>
+                                    </p>
+                                </div>
+
+                                <!-- MongoDB -->
+                                <div class="stamp-responsive">
+                                    <div class="stamp-logo" style="background: #1c5e1d">
+                                        <img src="././assets/images/tools/mongodb-white.svg" alt="MongoDB Logo">
+                                    </div>
+                                    <p class="stamp-text" style="color:#134514;">
+                                        <span class="stamp-title">MONGODB</span>
+                                        <span class="stamp-key">Database</span>
+                                    </p>
+                                </div>
+
+                                <!-- Firestore -->
+                                <div class="stamp-responsive">
+                                    <div class="stamp-logo" style="background: #f79823">
+                                        <img src="./assets/images/tools/firestore.svg" alt="Firestore Logo">
+                                    </div>
+                                    <p class="stamp-text" style="color:#de8519;">
+                                        <span class="stamp-title">FIRESTORE</span>
+                                        <span class="stamp-key">Database</span>
+                                    </p>
+                                </div>
+
+                                <!-- Redis -->
+                                <div class="stamp-responsive">
+                                    <div class="stamp-logo" style="background: #d82c20">
+                                        <img src="././assets/images/tools/redis-white.svg" alt="">
+                                    </div>
+                                    <p class="stamp-text" style="color:#d82c20;">
+                                        <span class="stamp-title">REDIS</span>
+                                        <span class="stamp-key">Database</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Column 3: APIs & Protocols -->
+                        <div>
+                            <h4>
+                                <span class="stamp-icon"><i class="fa-solid fa-server"></i></span>
+                                APIs & Protocols
+                            </h4>
+                            <div class="stamp-container">
+                                <!-- REST API -->
+                                <div class="stamp-responsive">
+                                    <div class="stamp-logo" style="background: #b2edff">
+                                        <img src="././assets/images/tools/rest-api.svg" alt="REST API Logo">
+                                    </div>
+                                    <p class="stamp-text" style="color:#72c1dc;">
+                                        <span class="stamp-title">REST API</span>
+                                        <span class="stamp-key">Protocol</span>
+                                    </p>
+                                </div>
+
+                                <!-- gRPC -->
+                                <div class="stamp-responsive">
+                                    <div class="stamp-logo" style="background: #94adb4">
+                                        <img src="././assets/images/tools/grpc.svg" alt="gRPC Logo">
+                                    </div>
+                                    <p class="stamp-text" style="color:#244b5a;">
+                                        <span class="stamp-title">gRPC</span>
+                                        <span class="stamp-key">Protocol</span>
+                                    </p>
+                                </div>
+
+                                <!-- GraphQL -->
+                                <!-- <div class="stamp-responsive">
+                                    <div class="stamp-logo" style="background: #ff17b5">
+                                        <img src="././assets/images/tools/graphql.svg" alt="GraphQL Logo">
+                                    </div>
+                                    <p class="stamp-text" style="color:#ff17b5;">
+                                        <span class="stamp-title">GraphQL</span>
+                                        <span class="stamp-key">Query Language</span>
+                                    </p>
+                                </div> -->
+
+                                <!-- Swagger -->
+                                <div class="stamp-responsive">
+                                    <div class="stamp-logo" style="background: #72c826">
+                                        <img src="././assets/images/tools/swagger.svg" alt="Swagger Logo">
+                                    </div>
+                                    <p class="stamp-text" style="color:#72c826;">
+                                        <span class="stamp-title">SWAGGER</span>
+                                        <span class="stamp-key">API Docs</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Column 4: Cloud & Tools -->
+                        <div>
+                            <h4>
+                                <span class="stamp-icon"><i class="fa-solid fa-cloud"></i></span>
+                                Cloud & Tools
+                            </h4>
+                            <div class="stamp-container">
+                                <!-- GCP -->
+                                <div class="stamp-responsive">
+                                    <div class="stamp-logo" style="background: #6193f9">
+                                        <img src="././assets/images/tools/google-cloud-white.svg" alt="GCP Logo" />
+                                    </div>
+                                    <p class="stamp-text" style="color: #326DE6;">
+                                        <span class="stamp-title">GCP</span>
+                                        <span class="stamp-key">Cloud</span>
+                                    </p>
+                                </div>
+
+                                <!-- AWS -->
+                                <div class="stamp-responsive">
+                                    <div class="stamp-logo" style="background: #ffa41d">
+                                        <img src="././assets/images/tools/aws.svg" alt="AWS Logo" />
+                                    </div>
+                                    <p class="stamp-text" style="color:#ff9900;">
+                                        <span class="stamp-title">AWS</span>
+                                        <span class="stamp-key">Cloud</span>
+                                    </p>
+                                </div>
+
+                                <!-- Docker -->
+                                <div class="stamp-responsive">
+                                    <div class="stamp-logo" style="background: #2496ed">
+                                        <img src="././assets/images/tools/docker.svg" alt="Docker Logo">
+                                    </div>
+                                    <p class="stamp-text" style="color:#2496ed;">
+                                        <span class="stamp-title">DOCKER</span>
+                                        <span class="stamp-key shadow-vertical rotate-left-2">Containerization</span>
+                                    </p>
+                                </div>
+
+                                <!-- Kubernetes -->
+                                <!-- <div class="stamp-responsive">
+                                        <div class="stamp-logo" style="background: #326ce5">
+                                            <img src="././assets/images/tools/kubernetes.svg" alt="Kubernetes Logo">
+                                        </div>
+                                        <p class="stamp-text" style="color:#326ce5;">
+                                            <span class="stamp-title">KUBERNETES</span>
+                                            <span class="stamp-key shadow-vertical rotate-right-2">Orchestration</span>
+                                        </p>
+                                    </div> -->
+
+                                <!-- Postman -->
+                                <div class="stamp-responsive">
+                                    <div class="stamp-logo" style="background: #ed5d24">
+                                        <img src="././assets/images/tools/postman.svg" alt="Postman Logo">
+                                    </div>
+                                    <p class="stamp-text" style="color:#ed5d24;">
+                                        <span class="stamp-title">POSTMAN</span>
+                                        <span class="stamp-key shadow-vertical rotate-left">Testing</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Vintage Footer -->
+                    <div class="mt-8 pt-4 border-t-2 border-dashed border-black text-center italic text-sm">
+                        <p>Present your offer at the editorial desk! Good stamps never go out of circulation</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+        <section id="projects" class="mb-12">
+            <div class="border-b-2 border-black mb-6">
+                <h5 class="font-bold uppercase tracking-widest mb-2">PROJECTS</h5>
+                <h2 class="text-3xl font-bold uppercase">Featured Articles</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="project-card border-2 border-black p-0">
+                    <div class="bg-amber-200 h-48 border-b-2 border-black p-4 relative">
+                        <h3 class="text-2xl font-bold">URL Shortener</h3>
+                        <p class="text-sm italic">
+                            A compact service for shrinking links, logging every click, and filter obscure
+                            domains.
+                        </p>
+                    </div>
+
+                    <div class="p-4">
+                        <p class="mb-4">
+                            User can create branded short links, redirect visitors instantly, keep links private if you
+                            wish,
+                            and review click analytics in real time. In addition, user can also export stats as JSON or CSV, and manage
+                            blacklisted
+                            domains.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-amber-800 text-amber-100 px-3 py-1 text-xs font-bold">GOLANG</span>
+                            <span class="bg-amber-800 text-amber-100 px-3 py-1 text-xs font-bold">FIRESTORE</span>
+                            <span class="bg-amber-800 text-amber-100 px-3 py-1 text-xs font-bold">DOCKER</span>
+                            <span class="bg-amber-800 text-amber-100 px-3 py-1 text-xs font-bold">CLOUD
+                                RUN</span>
+                        </div>
+
+                        <div class="flex gap-3">
+                            <a href="https://github.com/mfmahendr/url-shortener-backend"
+                                class="inline-block bg-black hover:bg-amber-900 text-white text-xs px-4 py-1 rounded-none border border-black shadow-md transition-all duration-300 transform hover:scale-105">
+                                SOURCE CODE
+                            </a>
+
+                            <a href="https://shorturl.mfadhilmahendra.my.id/docs"
+                                class="inline-block bg-amber-800 hover:bg-amber-900 text-amber-100 text-xs px-4 py-1 rounded-none border border-black shadow-md transition-all duration-300 transform hover:scale-105">
+                                LIVE DOCS
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card border-2 border-black p-0">
+                    <div class="bg-amber-200 h-48 border-b-2 border-black p-4 relative">
+                        <h3 class="text-2xl font-bold">Equeeping</h3>
+                        <p class="text-sm italic">
+                            Microservice for managing service accounting cycles, from transactions to reporting.
+                        </p>
+                    </div>
+
+                    <div class="p-4">
+                        <p class="mb-4">
+                            Equeeping is a dedicated microservice designed to handle the complete accounting cycle for
+                            service-based businesses, including transaction
+                            management service, ledger management service, and reporting service. It
+                            provides a comprehensive solution for managing service accounting processes,
+                            ensuring accurate tracking of transactions, ledgers, and generating reports.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-amber-800 text-amber-100 px-3 py-1 text-xs font-bold">Go
+                                Fiber</span>
+                            <span class="bg-amber-800 text-amber-100 px-3 py-1 text-xs font-bold">MySQL</span>
+                            <span class="bg-amber-800 text-amber-100 px-3 py-1 text-xs font-bold">GKE</span>
+                        </div>
+
+                        <div class="flex gap-3">
+                            <a href="https://github.com/mfmahendr/equeeping"
+                                class="inline-block bg-black hover:bg-amber-900 text-white text-xs px-4 py-1 rounded-none border border-black shadow-md transition-all duration-300 transform hover:scale-105">
+                                SOURCE CODE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card border-2 border-black p-0">
+                    <div class="bg-amber-200 h-48 border-b-2 border-black p-4 relative">
+                        <h3 class="text-2xl font-bold">APAD CSM</h3>
+                        <p class="text-sm italic">
+                            Administrative Application of PT. CAHYO SUMBER MIGAS
+                        </p>
+                    </div>
+
+                    <div class="p-4">
+                        <p class="mb-4">
+                            This is a group project developed for our university course assignment. It's a web-based
+                            application designed to streamline LPG (Liquefied Petroleum Gas) sales management for PT
+                            Cahyo Sumber Migas. Built with the MERN stack (MongoDB, Expressjs, Reactjs, and Nodejs),
+                            it manages transaction records such as income, expenses, and customer payments. The project
+                            is implemented using JavaScript, EJS, and CSS.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-amber-800 text-amber-100 px-3 py-1 text-xs font-bold">Javascript</span>
+                            <span class="bg-amber-800 text-amber-100 px-3 py-1 text-xs font-bold">MongoDB</span>
+                            <span class="bg-amber-800 text-amber-100 px-3 py-1 text-xs font-bold">React</span>
+                            <span class="bg-amber-800 text-amber-100 px-3 py-1 text-xs font-bold">Amazon
+                                EC2</span>
+                        </div>
+
+                        <div class="flex gap-3">
+                            <button href="https://github.com/MichaelHamonangan/paw_kelompok_17"
+                                class="inline-block bg-black hover:bg-amber-900 text-amber-100 text-xs text-white px-4 py-1 rounded-none border border-black shadow-md transition-all duration-300 transform hover:scale-105">
+                                SOURCE CODE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="certificates" class="mb-12 p-6 border-2 border-black shadow-md">
+                    <div class="border-b-2 border-black mb-6">
+                        <h2 class="text-3xl font-bold uppercase">
+                            Professional Credentials
+                        </h2>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="certificate-card border border-black p-4 bg-amber-50">
+                            <h3 class="text-xl font-bold mb-1">Certificate Name</h3>
+                            <p class="text-sm italic mb-2">Amazon Web Services - 2025</p>
+                            <p class="text-sm mb-3">
+                                Official certification demonstrating X.
+                            </p>
+                            <button class="text-amber-800 hover:underline text-sm font-bold">
+                                VIEW CREDENTIAL →
+                            </button>
+                        </div>
+                    </div>
+                </section> -->
+
+        <section id="contact" class="mb-12 p-6">
+            <!-- Header dengan efek stempel -->
+            <div class="relative mb-8 pb-4 border-b-2 border-black">
+                <h5 class="font-bold uppercase tracking-widest mb-2">CONTACT</h5>
+                <h2 class="text-3xl font-bold uppercase tracking-wider text-center" style="
+              letter-spacing: 0.2em;
+              display: inline-block;
+              padding: 0.5rem 1rem;
+              transform: rotate(-2deg);
+            ">
+                    CONTACT THE PRESS
+                </h2>
+                <div class="absolute bottom-0 left-0 right-0 h-1 bg-black"></div>
+            </div>
+
+            <div class="grid md:grid-cols-8 gap-6 mb-6">
+                <article class="md:col-span-3 space-y-6">
+                    <!-- Social Pages Card -->
+                    <div class="p-4 border-2 border-black bg-amber-50 shadow-[3px_3px_0_0_rgba(0,0,0,1)]">
+                        <h3 class="text-lg font-bold mb-3 font-serif flex items-center">
+                            SOCIAL PAGES
+                        </h3>
+                        <ul class="text-sm space-y-2">
+                            <li class="flex items-center space-x-2">
+                                <a href="https://linkedin.com/in/m-fadhil-mahendra"
+                                    class="underline hover:text-blue-600 flex items-center space-x-2" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <img src="././assets/images/common/linkedin.svg" alt="LinkedIn" class="w-4 h-4">
+                                    <span>LinkedIn:</span>
+                                    <span>/in/m-fadhil-mahendra</span>
+                                </a>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <a href="https://github.com/mfmahendr"
+                                    class="underline hover:text-blue-600 flex items-center space-x-2" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <img src="././assets/images/common/github.svg" alt="GitHub" class="w-4 h-4">
+                                    <span>GitHub:</span>
+                                    <span>@mfmahendr</span>
+                                </a>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <a href="https://instagram.com/by.fadhil"
+                                    class="underline hover:text-blue-600 flex items-center space-x-2" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <img src="././assets/images/common/instagram.svg" alt="LinkedIn" class="w-4 h-4">
+                                    <span>Instagram:</span>
+                                    <span>@by.fadhil</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="p-4 border-2 border-black shadow-[3px_3px_0_0_rgba(0,0,0,1)]">
+                        <h3 class="text-lg font-bold mb-3 font-serif border-b border-black pb-1">
+                            OFFICIAL WEBSITE
+                        </h3>
+                        <a href="https://www.mfadhilmahendra.my.id"
+                            class="text-sm hover:text-blue-600 underline text-center block" target="_blank"
+                            rel="noopener noreferrer">
+                            www.mfadhilmahendra.my.id
+                        </a>
+                        <p class="text-xs italic text-right">(Est. 2025)</p>
+                    </div>
+                </article>
+
+                <section id="contact"
+                    class="md:col-span-5 p-6 border-2 border-black border-dashed shadow-md relative mail-in-form">
+                    <div
+                        class="cut-out-indicator absolute top-0 right-0 bg-black text-white px-2 py-1 text-xs font-bold">
+                        CUT ALONG DOTTED LINE
+                    </div>
+                    <div class="border-b-2 border-black mb-6">
+                        <h2 class="text-3xl font-bold uppercase">
+                            Mail-In Correspondence
+                        </h2>
+                    </div>
+                    <form class="space-y-4">
+                        <p>
+                            You can use this form to connect, whether it's for a project invite, a quick tech update, or
+                            else.
+                        </p>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label for="name" class="block text-sm font-bold mb-1">YOUR NAME</label>
+                                <input type="text" id="name"
+                                    class="w-full border-2 border-gray-500 px-3 py-2 bg-amber-50 focus:outline-none" />
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-bold mb-1">EMAIL ADDRESS</label>
+                                <input type="email" id="email"
+                                    class="w-full border-2 border-gray-500 px-3 py-2 bg-amber-50 focus:outline-none" />
+                            </div>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-bold mb-1">MESSAGE</label>
+                            <textarea id="message" rows="4"
+                                class="w-full border-2 border-gray-500 px-3 py-2 bg-amber-50 focus:outline-none"></textarea>
+                        </div>
+                        <div class="text-center mt-6">
+                            <button type="submit"
+                                class="bg-amber-800 hover:bg-amber-900 text-amber-100 py-2 px-6 border-2 border-black shadow-md font-bold transition-all duration-300 transform hover:scale-105">
+                                MAIL THIS FORM
+                            </button>
+                        </div>
+                    </form>
+                    <div class="mail-to-address mt-4 p-2 bg-amber-100 border border-black text-center text-sm">
+                        <p>
+                            MAIL TO: Backend Developer, PO Box <span class="filler-text">1234</span>, <span
+                                class="filler-text ink-bleed-svg">Tech</span> City, <span TC
+                                class="filler-text ink-blot">56789</span>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-amber-900 text-amber-100 py-6 border-t-4 border-black relative">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-sm">© 2023 THE BACKEND TIMES - ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+
+    <svg width="0" height="0">
+        <filter id="ink-bleed-filter">
+            <feTurbulence type="turbulence" baseFrequency="0.05" numOctaves="3" result="turb" />
+            <feDisplacementMap in="SourceGraphic" in2="turb" scale="5" xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+    </svg>
+
+    <script src="./scripts/script.js"></script>
+    <script>
+        const dateContainer = document.getElementById('newspaper-date');
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const today = new Date().toLocaleDateString('en-US', options).toUpperCase();
+        dateContainer.textContent = today;
+    </script>
 </body>
 
 </html>
