@@ -15,16 +15,25 @@
 </head>
 
 <body class="font-serif aged-paper-tone">
-    <header class="border-b-4 border-black relative">
-        <div id="home" class="container mx-auto px-4 py-6">
-            <div class="text-center">
-                <div id="newspaper-date"
-                    class="newspaper-date absolute top-2 right-4 bg-amber-900 text-amber-100 px-3 py-1 text-sm font-bold">
-                </div>
-                <div id="newspaper-lang"
-                    class="newspaper-lang absolute top-2 left-4 bg-amber-900 text-amber-100 px-3 py-1 text-sm font-bold">
-                    <span class="text-xs">ENGLISH EDITION</span>
-                </div>
+  <div id="thank-you-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2 class="text-3xl font-bold mb-4">Thank You!</h2>
+      <p class="text-xl mb-6">Your message has been sent successfully.</p>
+      <p>We'll get back to you soon.</p>
+    </div>
+  </div>
+
+  <header class="border-b-4 border-black relative">
+    <div id="home" class="container mx-auto px-4 py-6">
+      <div class="text-center">
+        <div id="newspaper-date"
+          class="newspaper-date absolute top-2 right-4 bg-amber-900 text-amber-100 px-3 py-1 text-sm font-bold">
+        </div>
+        <div id="newspaper-lang"
+          class="newspaper-lang absolute top-2 left-4 bg-amber-900 text-amber-100 px-3 py-1 text-sm font-bold">
+          <span class="text-xs">ENGLISH EDITION</span>
+        </div>
 
                 <!-- Main Title -->
                 <h1 class="text-5xl md:text-8xl font-bold font-logo text-amber-900 tracking-tight leading-tight">
@@ -1052,67 +1061,100 @@
                             Mail-In Correspondence
                         </h2>
                     </div>
-                    <form class="space-y-4">
-                        <p>
-                            You can use this form to connect, whether it's for a project invite, a quick tech update, or
-                            else.
-                        </p>
-                        <div class="grid md:grid-cols-2 gap-4">
-                            <div>
-                                <label for="name" class="block text-sm font-bold mb-1">YOUR NAME</label>
-                                <input type="text" id="name"
-                                    class="w-full border-2 border-gray-500 px-3 py-2 bg-amber-50 focus:outline-none" />
-                            </div>
-                            <div>
-                                <label for="email" class="block text-sm font-bold mb-1">EMAIL ADDRESS</label>
-                                <input type="email" id="email"
-                                    class="w-full border-2 border-gray-500 px-3 py-2 bg-amber-50 focus:outline-none" />
-                            </div>
-                        </div>
-                        <div>
-                            <label for="message" class="block text-sm font-bold mb-1">MESSAGE</label>
-                            <textarea id="message" rows="4"
-                                class="w-full border-2 border-gray-500 px-3 py-2 bg-amber-50 focus:outline-none"></textarea>
-                        </div>
-                        <div class="text-center mt-6">
-                            <button type="submit"
-                                class="bg-amber-800 hover:bg-amber-900 text-amber-100 py-2 px-6 border-2 border-black shadow-md font-bold transition-all duration-300 transform hover:scale-105">
-                                MAIL THIS FORM
-                            </button>
-                        </div>
-                    </form>
-                    <div class="mail-to-address mt-4 p-2 bg-amber-100 border border-black text-center text-sm">
-                        <p>
-                            MAIL TO: Backend Developer, PO Box <span class="filler-text">1234</span>, <span
-                                class="filler-text ink-bleed-svg">Tech</span> City, <span TC
-                                class="filler-text ink-blot">56789</span>
-                        </p>
-                    </div>
-                </section>
+          <form id="contact-form" action="https://formsubmit.co/[REDACTED]" method="POST" class="space-y-4">
+
+            <!-- hidden fields -->
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_subject" value="New message from portfolio">
+
+            <p>
+              You can use this form to connect, whether it's for a project invite,
+              a quick tech update, or else.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-4">
+              <div>
+                <label for="name" class="block text-sm font-bold mb-1">YOUR NAME</label>
+                <input type="text" id="name" name="name" required
+                  class="w-full border-2 border-gray-500 px-3 py-2 bg-amber-50 focus:outline-none" />
+              </div>
+              <div>
+                <label for="email" class="block text-sm font-bold mb-1">EMAIL ADDRESS</label>
+                <input type="email" id="email" name="email" required
+                  class="w-full border-2 border-gray-500 px-3 py-2 bg-amber-50 focus:outline-none" />
+              </div>
             </div>
+
+            <div>
+              <label for="message" class="block text-sm font-bold mb-1">MESSAGE</label>
+              <textarea id="message" name="message" rows="4" required
+                class="w-full border-2 border-gray-500 px-3 py-2 bg-amber-50 focus:outline-none"></textarea>
+            </div>
+
+            <div class="text-center mt-6">
+              <button type="submit"
+                class="bg-amber-800 hover:bg-amber-900 text-amber-100 py-2 px-6 border-2 border-black shadow-md font-bold transition-all duration-300 transform hover:scale-105">
+                MAIL THIS FORM
+              </button>
+            </div>
+          </form>
+          <div class="mail-to-address mt-4 p-2 bg-amber-100 border border-black text-center text-sm">
+            <p>
+              MAIL TO: Backend Developer, PO Box <span class="filler-text blurred-ink ink-smudge">0000</span>, <span
+                class="filler-text ink-bleed-svg">Tech</span> City, <span TC class="filler-text ink-blot">56789</span>
+            </p>
+          </div>
         </section>
-    </main>
+      </div>
+    </section>
+  </main>
 
-    <footer class="bg-amber-900 text-amber-100 py-6 border-t-4 border-black relative">
-        <div class="container mx-auto px-4 text-center">
-            <p class="text-sm">© 2023 THE BACKEND TIMES - ALL RIGHTS RESERVED</p>
-        </div>
-    </footer>
+  <footer class="bg-amber-900 text-amber-100 py-6 border-t-4 border-black relative">
+    <div class="container mx-auto px-4 text-center">
+      <p class="text-sm">© 2025 FADHIL PORTONEWS - ALL RIGHTS RESERVED</p>
+    </div>
+  </footer>
 
-    <svg width="0" height="0">
-        <filter id="ink-bleed-filter">
-            <feTurbulence type="turbulence" baseFrequency="0.05" numOctaves="3" result="turb" />
-            <feDisplacementMap in="SourceGraphic" in2="turb" scale="5" xChannelSelector="R" yChannelSelector="G" />
-        </filter>
-    </svg>
+  <svg width="0" height="0">
+    <filter id="ink-bleed-filter">
+      <feTurbulence type="turbulence" baseFrequency="0.05" numOctaves="3" result="turb" />
+      <feDisplacementMap in="SourceGraphic" in2="turb" scale="5" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+  </svg>
 
-    <script src="./scripts/script.js"></script>
-    <script>
-        const dateContainer = document.getElementById('newspaper-date');
-        const options = { year: 'numeric', month: 'long', day: 'numeric' };
-        const today = new Date().toLocaleDateString('en-US', options).toUpperCase();
-        dateContainer.textContent = today;
-    </script>
+  <script src="./scripts/script.js"></script>
+  <script>
+    const modal = document.getElementById('thank-you-modal');
+    const closeBtn = document.querySelector('.close-modal');
+
+    function showModal() {
+      modal.style.display = 'flex';
+    }
+
+    function closeModal() {
+      modal.style.display = 'none';
+    }
+
+    closeBtn.addEventListener('click', closeModal);
+    window.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        closeModal();
+      }
+    });
+
+    document.getElementById('contact-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      showModal();
+
+      this.reset();
+    });
+
+    const dateContainer = document.getElementById('newspaper-date');
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    const today = new Date().toLocaleDateString('en-US', options).toUpperCase();
+    dateContainer.textContent = today;
+  </script>
 </body>
 
 </html>
