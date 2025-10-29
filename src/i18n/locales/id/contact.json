@@ -1,0 +1,28 @@
+{
+  "title": "Kontak",
+  "headline": "Hubungi Pers",
+  "sub": {
+    "form": {
+      "headline": "Surat Menyurat",
+      "intro": "Anda dapat menggunakan formulir ini untuk terhubung, baik untuk merekrut saya ke pekerjaan atau ke dalam sebuah proyek, menjadi 'teman pena', atau lainnya.",
+      "labels": {
+        "name": "NAMA ANDA",
+        "email": "ALAMAT EMAIL",
+        "message": "PESAN",
+        "phone": "Telepon",
+        "submit": "KIRIM FORMULIR INI"
+      }
+    },
+    "social": {
+      "headline": "Media Sosial",
+      "web_headline": "Situs Resmi"
+    }
+  },
+  "turnstile": {
+    "error_complete_verification": "Silakan selesaikan verifikasi terlebih dahulu!"
+  },
+  "decorative": {
+    "cutline": "GUNTING SEPANJANG GARIS PUTUS-PUTUS",
+    "mail_to": "KIRIM KE: Pengembang Backend, Kotak Pos <blot>0000</blot> Kota <tech>Tech</tech>, <code>00000</code>"
+  }
+}

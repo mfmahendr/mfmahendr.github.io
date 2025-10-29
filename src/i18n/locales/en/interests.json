@@ -1,0 +1,31 @@
+{
+  "title": "Interests",
+  "headline": "<str>Cabinet</str> of Curiosities",
+  "headline_correct_word": "Column",
+  "sub": {
+    "pursuits": {
+      "title": "Professional Interests",
+      "headline": "Interests and Pursuits",
+      "published": "Added to the collection on the <blot>xth</blot> Day of <filler><blot>month</blot></filler>, 2025",
+      "intro": "In this <str>cabinet</str> of curiosities, I’ve gathered the themes and technologies that occupy my current attention to expand my understanding of software systems.",
+      "intro_correct_word": "column",
+      "lists": [
+        "<b>Cloud-native backend development</b>: Building robust backend systems with microservices and container orchestration.",
+        "<b>DevOps automation & containerization</b>: Automating CI/CD pipelines using tools like GitHub Actions, Docker, and Kubernetes.",
+        "<b>System observability & serverless architecture</b>: Implementing tracing, logging, and metrics to monitor distributed systems."
+      ]
+    },
+    "learning": {
+      "title": "What I Currently Learn?",
+      "headline": "A Look Into What Fadhil is Learning Right Now",
+      "published": "Last updated on <bi>October 29th, 2025</bi>",
+      "intro": "A software developer, M. Fadhil Mahendra, with ongoing interest in Cloud Computing, backend development, and DevOps automation, is currently concentrating on a set of technical topics related to those areas.",
+      "topics": [
+        "Migration from monolithic to microservices architecture",
+        "Kubernetes for container orchestration",
+        "System observability tools in backend app"
+      ],
+      "outro": "<i>\"I'm excited to apply what I've learned, whether it's personal projects or professional challenges.\"</i>"
+    }
+  }
+}

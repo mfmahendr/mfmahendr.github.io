@@ -1,0 +1,32 @@
+{
+  "title": "Projects",
+  "headline": "Featured Articles",
+  "intro": "",
+  "projects": [
+    {
+      "id": "url-shortener",
+      "title": "URL Shortener",
+      "short": "A compact service for shrinking links, logging every click, and filtering obscure domains.",
+      "description": "User can create branded short links, redirect visitors instantly, keep links private if you wish, and review click analytics in real time. In addition, user can also export stats as JSON or CSV, and manage blacklisted domains.",
+      "tags": ["Go", "Firestore", "Docker", "Google Cloud Run"],
+      "source": "https://github.com/mfmahendr/url-shortener-backend",
+      "live": "https://shorturl.mfadhilmahendra.my.id/docs"
+    },
+    {
+      "id": "cinemarate",
+      "title": "Cinemarate",
+      "short": "Microservices application allowing users to rate movies",
+      "description": "Cinemarate enables users to fetch, rate, and manage movie metadata, using an API Gateway that translates REST requests to internal gRPC services. This project demonstrates practical microservice patterns such as client-side discovery, aggregator pattern, API gateway for request entry point, and shared database for now (but \"database per service\" can be implemented).",
+      "tags": ["Go Fiber", "MySQL", "Consul", "Docker", "gRPC"],
+      "source": "https://github.com/mfmahendr/Cinemarate"
+    },
+    {
+      "id": "goauthme",
+      "title": "GoAuthMe",
+      "short": "Microservices for handling authentication, authorization, and user management for your project.",
+      "description": "GoAuthMe is a centralized authentication and authorization microservice designed to provide secure identity management for your applications. Built with a microservices architecture, it offers robust user management, multi-tenant support, and comprehensive security features.",
+      "tags": ["Go Fiber", "gRPC", "Kubernetes", "MongoDB", "Redis", "Kafka"],
+      "source": "https://github.com/mfmahendr/goauthme"
+    }
+  ]
+}

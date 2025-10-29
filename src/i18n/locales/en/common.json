@@ -1,0 +1,33 @@
+{
+  "site_title": "Fadhil PortoNews",
+  "site_est": "EST. 2025 - A PROFILE WEBSITE",
+  "site_copyright": "© 2025 Fadhil PORTONEWS - ALL RIGHTS RESERVED",
+  "content_guide_title": "CONTENT GUIDE",
+  "language": {
+    "english": "ENGLISH Edition",
+    "indonesian": "Edisi BAHASA INDONESIA"
+  },
+  "buttons": {
+    "hire": "HIRE",
+    "source_code": "SOURCE CODE",
+    "live_docs": "LIVE DOCS",
+    "mail_form": "MAIL THIS FORM",
+    "continue": "Continued on Page"
+  },
+  "status": {
+    "available": "Ready to Work",
+    "wfa": "Work From Anywhere",
+    "wfo": "Office Deployments"
+  },
+  "modal": {
+    "thanks": {
+      "title": "Thank You!",
+      "message_body": "Your message has been sent successfully.",
+      "message_info": "We'll get back to you soon."
+    },
+    "error": {
+      "title": "Submission Failed",
+      "message": "There was an error sending your message. Please try again later."
+    }
+  }
+}

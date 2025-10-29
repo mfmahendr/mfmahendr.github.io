@@ -1,0 +1,89 @@
+{
+  "title": "About",
+  "headline": "Profile of The Week",
+  "sub": {
+    "availability": {
+      "title": "Availability Status",
+      "headline": "Breaking <blot>News</blot>",
+      "available": {
+        "img_alt": "Developer declares ready to work.",
+        "lead": "LOCAL DEV DECLARES “READY TO WORK!”",
+        "desc": "An engineer steps forward with confidence, sends a bold callout: <bi>“I'm ready. Mail me now.”</bi> Sources <blot>XYZZYX</blot> confirm flexibility for <u>both work from anywhere and office deployments</u>."
+      },
+      "unavailable": {
+        "img_alt": "Developer currently unavailable for work.",
+        "lead": "DEV TAKES A BREATHER, UNAVAILABLE FOR NOW",
+        "desc": "In a recent update, the developer announced a temporary pause on new projects. \"I'm taking some time off to recharge and focus on personal growth,\" he shared. Stay tuned for future availability."
+      },
+      "employed": {
+        "img_alt": "Developer currently employed.",
+        "lead": "LOCAL DEV CONFIRMS ACTIVE EMPLOYMENT",
+        "desc": "Reliable sources confirm the developer is currently focusing on ongoing work responsibilities and not seeking additional work at this time."
+      }
+    }
+  },
+  "articles": [
+    {
+      "query_id": "backend_cloud",
+      "job_expectation": "Backend Developer or Cloud Computing",
+      "contents": [
+        {
+          "intro": "Meet <b>{{name}}</b>, a curious mind with degree from <b>{{univ}}</b>, majoring in <b>{{major}}</b>. He has a strong passion for backend development and cloud computing, with a growing interest in the world of DevOps."
+        },
+        {
+          "career_goal": "With hands-on experience in building scalable backend systems and cloud infrastructure, {{name}} is aiming for a career as a <b>{{career}}</b>. His work is grounded in clarity, reliability, and efficient execution."
+        },
+        {
+          "work_style": "He works well both independently and in collaborative environments with his strong sense of <i>responsibility</i>. As a <b>generalist</b>, he can bridge gaps between technical execution and business priorities. He's the kind of developer who cares as much about \"why\" as he does \"how\"."
+        },
+        {
+          "personal_interest": "Outside of work, he explores new tools or reads to stay sharp."
+        }
+      ]
+    },
+    {
+      "query_id": "backend",
+      "job_expectation": "Backend Developer",
+      "contents": [
+        {
+          "intro": "(Backend) Meet <b>{{name}}</b>, a curious mind with degree from <b>{{univ}}</b>, majoring in <b>{{major}}</b>. He has a strong passion for backend development and cloud computing, with a growing interest in the world of DevOps."
+        },
+        {
+          "career_goal": "With hands-on experience in building scalable backend systems and cloud infrastructure, {{name}} is aiming for a career as a <b>{{career}}</b>. His work is grounded in clarity, reliability, and efficient execution."
+        },
+        {
+          "work_style": "He works well both independently and in collaborative environments with his strong sense of <i>responsibility</i>. As a <b>generalist</b>, he can bridge gaps between technical execution and business priorities. He's the kind of developer who cares as much about \"why\" as he does \"how\"."
+        },
+        {
+          "personal_interest": "Outside of work, he explores new tools or reads to stay sharp."
+        }
+      ]
+    },
+    {
+      "query_id": "cloud",
+      "job_expectation": "Cloud Computing",
+      "contents": [
+        {
+          "intro": "(Cloud) Meet <b>{{name}}</b>, a curious mind with degree from <b>{{univ}}</b>, majoring in <b>{{major}}</b>. He has a strong passion for backend development and cloud computing, with a growing interest in the world of DevOps."
+        },
+        {
+          "career_goal": "With hands-on experience in building scalable backend systems and cloud infrastructure, {{name}} is aiming for a career as a <b>{{career}}</b>. His work is grounded in clarity, reliability, and efficient execution."
+        },
+        {
+          "work_style": "He works well both independently and in collaborative environments with his strong sense of <i>responsibility</i>. As a <b>generalist</b>, he can bridge gaps between technical execution and business priorities. He's the kind of developer who cares as much about \"why\" as he does \"how\"."
+        },
+        {
+          "personal_interest": "Outside of work, he explores new tools or reads to stay sharp."
+        }
+      ]
+    }
+  ],
+  "profile": {
+    "major": "Information Engineering"
+  },
+  "image": {
+    "src": "/images/illustration/fadhil.png",
+    "alt": "M. Fadhil Mahendra"
+  },
+  "hire_cta": "HIRE"
+}

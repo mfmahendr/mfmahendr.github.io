@@ -1,0 +1,56 @@
+{
+  "title": "Skills",
+  "headline": "Capability Columns",
+  "sub": {
+    "classifieds": {
+      "title": "Hardskills and Softskills",
+      "headline": "Classifieds",
+      "technical": {
+        "title": "Technical Skills",
+        "headline": "Services Offered",
+        "items": [
+          {
+            "heading": "Need a <b>BACKEND DEVELOPER</b>?",
+            "content": "Clean APIs with solid architecture, thoughtful validation, and real-world edge case handling. Docs included. Contact me quickly!"
+          },
+          {
+            "heading": "<b>Cloud Computing</b> Solutions...",
+            "content": "GCP and AWS specialist. Will build a cost-effective, scalable cloud infrastructure for your project. From serverless to containerized, I’ve got you covered."
+          },
+          {
+            "heading": "<b>DevOps Engineer</b> Needed?",
+            "content": "GitOps workflows. Secure CI/CD. Fewer outages, faster deployments."
+          }
+        ]
+      },
+      "softskills": {
+        "title": "Soft Skills",
+        "headline": "Announcements and Notices",
+        "items": [
+          {
+            "heading": "Ready to Learn, Set to Shift",
+            "content": "Brings speed to skill-building. <b>Learns fast, adapts faster</b>. New frameworks, teams, or domains aren't a roadblock."
+          },
+          {
+            "heading": "This Engineer Is A <b>Critical Thinker</b>",
+            "content": "Now available: a thoughtful engineer. Brings practical thinking by combining logical analysis with real-world constraints. Identifies edge cases before they break and connects dots others miss."
+          },
+          {
+            "heading": "Sees what others skip",
+            "content": "He notices things others miss. Consistency in code and clarity in setup aren’t extras—they’re part of the job. Every little thing is the big picture. His <b>attention to detail</b> is your project`s safety net."
+          },
+          {
+            "heading": "<b>LANGUAGES</b> SPOKEN",
+            "content": "Now available for global teams. <b>English/Indonesian</b> fluent. Bridges gaps between teams and timezones."
+          }
+        ]
+      }
+    },
+    "tools": {
+      "title": "Tech and Tools",
+      "headline": "Stamp Exchange",
+      "intro": "<i>Stamps available for trade. Let’s trade, with project role, your ideas, or real work.</i>",
+      "footer": "Present your offer at the <faded><blurred>editorial desk</blurred></faded>! Good stamps never go out of circulation"
+    }
+  }
+}

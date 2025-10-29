@@ -1,0 +1,33 @@
+{
+  "site_title": "Fadhil PortoNews",
+  "site_est": "SEJAK 2025 - SEBUAH WEBSITE PROFIL",
+  "site_copyright": "© 2025 Fadhil PORTONEWS - ALL RIGHTS RESERVED",
+  "content_guide_title": "CONTENT GUIDE",
+  "language": {
+    "english": "ENGLISH Edition",
+    "indonesian": "Edisi BAHASA INDONESIA"
+  },
+  "buttons": {
+    "hire": "REKRUT",
+    "source_code": "SOURCE CODE",
+    "live_docs": "LIVE DOCS",
+    "mail_form": "KIRIM FORMULIR",
+    "continue": "Selengkapnya"
+  },
+  "status": {
+    "available": "SIAP BEKERJA",
+    "wfa": "Bekerja dari Mana Saja",
+    "wfo": "Penempatan di Kantor"
+  },
+  "modal": {
+    "thanks": {
+      "title": "Terima Kasih!",
+      "message_body": "Pesan Anda telah berhasil terkirim.",
+      "message_info": "Saya akan membalas pesan Anda secepatnya."
+    },
+    "error": {
+      "title": "Terjadi Kesalahan",
+      "message": "Terjadi kesalahan. Silakan coba lagi."
+    }
+  }
+}

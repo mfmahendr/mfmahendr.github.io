@@ -1,0 +1,32 @@
+{
+  "title": "Proyek",
+  "headline": "Artikel Unggulan",
+  "intro": "",
+  "projects": [
+    {
+      "id": "url-shortener",
+      "title": "Shorturl",
+      "short": "Layanan ringkas untuk memperpendek link, mencatat setiap klik, dan memfilter domain yang tidak jelas.",
+      "description": "Pengguna dapat membuat short link dengan merek sendiri, mengarahkan pengunjung secara instan, menjaga link tetap pribadi jika diinginkan, dan meninjau analitik klik secara real-time. Selain itu, pengguna juga dapat mengekspor statistik dalam format JSON atau CSV, serta mengelola domain yang diblokir.",
+      "tags": ["Go", "Firestore", "Docker", "Google Cloud Run"],
+      "source": "https://github.com/mfmahendr/url-shortener-backend",
+      "live": "https://shorturl.mfadhilmahendra.my.id/docs"
+    },
+    {
+      "id": "cinemarate",
+      "title": "Cinemarate",
+      "short": "Aplikasi microservices yang memungkinkan pengguna menilai film",
+      "description": "Cinemarate memungkinkan pengguna mengambil, menilai, dan mengelola metadata film, menggunakan API Gateway yang menerjemahkan permintaan REST ke layanan gRPC internal. Proyek ini menunjukkan pola microservice praktis seperti client-side discovery, aggregator pattern, API gateway sebagai titik masuk permintaan, dan shared database untuk sementara (meskipun \"database per service\" juga bisa diterapkan).",
+      "tags": ["Go Fiber", "MySQL", "Consul", "Docker", "gRPC"],
+      "source": "https://github.com/mfmahendr/Cinemarate"
+    },
+    {
+      "id": "goauthme",
+      "title": "GoAuthMe",
+      "short": "Microservices untuk menangani authentication, authorization, dan user management untuk proyek Anda.",
+      "description": "GoAuthMe adalah microservice terpusat untuk authentication dan authorization yang dirancang untuk menyediakan manajemen identitas yang aman bagi aplikasi Anda. Dibangun dengan arsitektur microservices, layanan ini menawarkan manajemen pengguna yang tangguh, dukungan multi-tenant, dan fitur keamanan yang komprehensif.",
+      "tags": ["Go Fiber", "gRPC", "Kubernetes", "MongoDB", "Redis", "Kafka"],
+      "source": "https://github.com/mfmahendr/goauthme"
+    }
+  ]
+}

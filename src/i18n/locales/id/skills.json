@@ -1,0 +1,56 @@
+{
+  "title": "Skills",
+  "headline": "Kolom Kemampuan",
+  "sub": {
+    "classifieds": {
+      "title": "Hardskills dan Softskills",
+      "headline": "Iklan Baris",
+      "technical": {
+        "title": "Kemampuan Teknis",
+        "headline": "Jasa",
+        "items": [
+          {
+            "heading": "Butuh PENGEMBANG BACKEND?",
+            "content": "API bersih dengan validasi menyeluruh, dan penanganan edge-case dunia nyata. Termasuk dokumentasi. Hubungi segera!"
+          },
+          {
+            "heading": "Solusi Cloud Computing...",
+            "content": "Memahami layanan-layanan di GCP dan AWS. Siap membangun infrastruktur cloud yang hemat biaya dan scalable, dari sistem serverless hingga containerization."
+          },
+          {
+            "heading": "Perlu Engineer DevOps?",
+            "content": "Alur kerja GitOps. CI/CD aman. Waktu henti lebih sedikit, deployment lebih cepat."
+          }
+        ]
+      },
+      "softskills": {
+        "title": "Kemampuan Non-Teknis",
+        "headline": "Pengumuman",
+        "items": [
+          {
+            "heading": "Siap Belajar, Siap Berubah",
+            "content": "Cepat dalam membangun keterampilan. <biu>belajar cepat, adaptasi lebih cepat</biu>. framework baru, tim baru, atau domain asing bukan halangan."
+          },
+          {
+            "heading": "Engineer Ini Adalah Pemikir KRITIS",
+            "content": "Engineer yang tajam, mampu <b>menganalisis secara logis dan realistis</b>. Mengenali risiko sebelum terjadi, dan menghubungkan titik-titik yang luput dari perhatian."
+          },
+          {
+            "heading": "Melihat Yang Tak Terlihat",
+            "content": "Ia memperhatikan hal-hal yang sering diabaikan. Konsistensi kode dan kejelasan setup adalah standar. <bi>Attention to detail</bi> adalah jaring pengaman proyek Anda."
+          },
+          {
+            "heading": "KEMAMPUAN BAHASA",
+            "content": "Siap untuk tim global. Fasih Bahasa Inggris & Indonesia. Menjembatani kesenjangan komunikasi lintas zona waktu dan budaya."
+          }
+        ]
+      }
+    },
+    "tools": {
+      "title": "Teknologi & Alat",
+      "headline": "Tukar Perangko",
+      "intro": "<i>Perangko tersedia untuk 'ditukar'! Tukar dengan tawaran peran di proyek, ide, atau pekerjaan.</i>",
+      "footer": "Ajukan penawaranmu di <smudge>meja redaksi</smudge>!"
+    }
+  }
+}
