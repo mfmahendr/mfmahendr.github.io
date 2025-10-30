@@ -106,8 +106,8 @@ const Contact = () => {
             type="submit"
             ref={submitRef}
             disabled
-            className="hover:text-[#ffe9a7] text-amber-100 py-2 px-6 border-2 border-black shadow-md font-bold transition-all duration-300 transform hover:scale-105 cursor-pointer
-              disabled:text-black disabled:shadow-inner disabled:font-semibold disabled:cursor-not-allowed disabled:opacity-50 disabled:border-gray-500"
+            className="hover:bg-black hover:text-[#ffe9a7] py-2 px-6 border-2 border-black shadow-md font-bold transition-all duration-300 transform hover:scale-103 cursor-pointer
+              disabled:text-black hover:disabled:text-[#ffe9a7] disabled:shadow-inner disabled:font-semibold disabled:cursor-not-allowed disabled:opacity-50 disabled:border-gray-500"
           >
             {t("sub.form.labels.submit")}
           </button>
