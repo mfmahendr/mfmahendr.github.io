@@ -96,9 +96,10 @@ const LanguageDateBar = () => {
       <div className="flex justify-between items-center mt-1 text-xs md:text-sm font-medium text-black">
         {/* Language Selector */}
         <select
+          aria-label="Select language"
           value={i18n.language}
           onChange={handleLanguageChange}
-          className="mx-auto border border-[#8b5a2b] rounded-none py-1.5 px-8 pr-8 text-xs text-gray-800 cursor-pointer 
+          className="ml-3 border border-[#8b5a2b] rounded-none py-1.5 px-8 pr-8 text-xs text-gray-800 cursor-pointer 
              appearance-none shadow-[2px_2px_0_rgba(0,0,0,0.2)] 
              hover:bg-[#e8e0d0] hover:shadow-[0_0_1px_rgba(0,0,0,0.3)] 
              bg-[right_8px_center]"
