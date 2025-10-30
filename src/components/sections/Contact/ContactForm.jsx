@@ -10,7 +10,7 @@ const Contact = () => {
   const submitRef = useRef(null);
   useTurnstile(submitRef);
 
-  const { handleSubmit, modalVisible, setModalVisible } = useContactForm();
+  const { handleSubmit, modal, setModal } = useContactForm();
 
   return (
     <section
@@ -115,7 +115,13 @@ const Contact = () => {
         </div>
       </form>
 
-      {modalVisible && <Modal onClick={() => setModalVisible(true)} />}
+      {modal.visible && (
+        <Modal
+          type={modal.type}
+          message={modal.message}
+          onClose={() => setModal({ ...modal, visible: false })}
+        />
+      )}
 
       {/* MAIL TO ADDRESS */}
       <div className="mail-to-address mt-4 p-2 border border-black text-center text-sm">
