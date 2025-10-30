@@ -3,23 +3,23 @@ import { useTranslation, Trans } from "react-i18next";
 import { textComponents } from "../../../i18n/utils/Components";
 
 export default function SubSkills({ type, titleKey, headlineKey }) {
-  const [activeCols, setActiveCols] = useState(1);
+  const [activeCols, setActiveCols] = useState(false);
 
   useEffect(() => {
-    const mediaSm = window.matchMedia("(min-width: 648px)");
+    const mediaXs = window.matchMedia("(min-width: 540px)");
     const updateCols = () => {
-      if (mediaSm.matches) {
-        setActiveCols(3);
-      } else setActiveCols(1);
+      if (mediaXs.matches) {
+        setActiveCols(true);
+      } else setActiveCols(false);
     };
 
     updateCols();
-    mediaSm.addEventListener("change", updateCols);
+    mediaXs.addEventListener("change", updateCols);
 
     return () => {
-      mediaSm.removeEventListener("change", updateCols);
+      mediaXs.removeEventListener("change", updateCols);
     };
-  });
+  }, []);
 
   const { t } = useTranslation("skills");
   const rawItems = t(`sub.classifieds.${type}.items`, { returnObjects: true });
@@ -33,24 +33,19 @@ export default function SubSkills({ type, titleKey, headlineKey }) {
   } else if (itemCount % 3 === 1) {
     gridCols = 2;
   }
+  if (!activeCols) gridCols = 1;
 
   const remainder = itemCount % gridCols;
-  const needsPlaceholder = remainder !== 0 && activeCols > 1 ? true : false;
+  const needsPlaceholder = remainder !== 0 && activeCols ? true : false;
 
-  const gridClass = {
-    1: "grid-cols-1",
-    2: "grid-cols-2",
-    3: "grid-cols-3",
-  }[gridCols];
 
   return (
     <section className="py-0">
       <h5 className="m-2">{t(titleKey)}</h5>
       <h3 className="tracking-widest uppercase m-2">{t(headlineKey)}</h3>
 
-      <div
-        className={`grid grid-cols-1 md:${gridClass} divide-y md:divide-y-0 md:divide-x divide-black text-[0.83rem] leading-tight`}
-      >
+      <div className="grid divide-y md:divide-y-0 md:divide-x divide-black text-[0.83rem] leading-tight"
+        style={{ gridTemplateColumns: `repeat(${gridCols}, minmax(0, 1fr))` }}>
         {items.length > 0 ? (
           items.map((item, index) => (
             <article
