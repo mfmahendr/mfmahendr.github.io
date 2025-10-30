@@ -62,7 +62,13 @@ const Contact = () => {
 
           {/* HONEYPOT */}
           <div className="hidden">
-            <input type="text" id="phone" name="phone" tabIndex={-1} autoComplete="off" />
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              tabIndex={-1}
+              autoComplete="off"
+            />
           </div>
         </div>
 

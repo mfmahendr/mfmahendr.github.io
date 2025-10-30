@@ -38,14 +38,15 @@ export default function SubSkills({ type, titleKey, headlineKey }) {
   const remainder = itemCount % gridCols;
   const needsPlaceholder = remainder !== 0 && activeCols ? true : false;
 
-
   return (
     <section className="py-0">
       <h5 className="m-2">{t(titleKey)}</h5>
       <h3 className="tracking-widest uppercase m-2">{t(headlineKey)}</h3>
 
-      <div className="grid divide-y md:divide-y-0 md:divide-x divide-black text-[0.83rem] leading-tight"
-        style={{ gridTemplateColumns: `repeat(${gridCols}, minmax(0, 1fr))` }}>
+      <div
+        className="grid divide-y md:divide-y-0 md:divide-x divide-black text-[0.83rem] leading-tight"
+        style={{ gridTemplateColumns: `repeat(${gridCols}, minmax(0, 1fr))` }}
+      >
         {items.length > 0 ? (
           items.map((item, index) => (
             <article

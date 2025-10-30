@@ -1,6 +1,10 @@
 import { useTranslation } from "react-i18next";
 
-export default function Modal({ type = "success", message = "", onClose = () => {} }) {
+export default function Modal({
+  type = "success",
+  message = "",
+  onClose = () => {},
+}) {
   const [t] = useTranslation("common");
   const isSuccess = type === "success";
 

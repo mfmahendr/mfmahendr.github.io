@@ -2,7 +2,11 @@ import { useState } from "react";
 
 export function useContactForm() {
   const [isSubmitting, setSubmitting] = useState(false);
-  const [modal, setModal] = useState({ visible: false, type: "success", message: "" });
+  const [modal, setModal] = useState({
+    visible: false,
+    type: "success",
+    message: "",
+  });
 
   const handleSubmit = async (e) => {
     console.log("Submitting your mail form...");
@@ -13,7 +17,8 @@ export function useContactForm() {
     const form = e.target;
     const data = Object.fromEntries(new FormData(form).entries());
     data.cf_token =
-      document.querySelector('input[name="cf-turnstile-response"]')?.value || "";
+      document.querySelector('input[name="cf-turnstile-response"]')?.value ||
+      "";
 
     try {
       const response = await fetch(
