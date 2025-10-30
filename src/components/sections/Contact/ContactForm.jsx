@@ -62,14 +62,7 @@ const Contact = () => {
 
           {/* HONEYPOT */}
           <div className="hidden">
-            <label htmlFor="phone">{t("sub.form.labels.phone")}</label>
-            <input
-              type="text"
-              id="phone"
-              name="phone"
-              tabIndex={-1}
-              autoComplete="off"
-            />
+            <input type="text" id="phone" name="phone" tabIndex={-1} autoComplete="off" />
           </div>
         </div>
 
@@ -89,19 +82,7 @@ const Contact = () => {
 
         {/* TURNSTILE & BUTTON */}
         <div className="text-center mt-6">
-          {/* TURNSTILE */}
-          <div
-            id="turnstile-widget"
-            className="cf-turnstile"
-            data-retry="auto"
-            data-sitekey="0x4AAAAAABlC7VN9-IAe1vyU"
-            data-callback="onTurnstileSuccess"
-            data-error-callback="onTurnstileError"
-            data-refresh-expired="manual"
-            data-refresh-timeout="manual"
-            data-retry-interval="10000"
-          ></div>
-
+          <div id="turnstile-widget"></div>
           <button
             id="submit-button"
             type="submit"

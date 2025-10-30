@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export function useContactForm() {
   const [isSubmitting, setSubmitting] = useState(false);
-  const [modalVisible, setModalVisible] = useState(false);
+  const [modal, setModal] = useState({ visible: false, type: "success", message: "" });
 
   const handleSubmit = async (e) => {
     console.log("Submitting your mail form...");
@@ -13,8 +13,7 @@ export function useContactForm() {
     const form = e.target;
     const data = Object.fromEntries(new FormData(form).entries());
     data.cf_token =
-      document.querySelector('input[name="cf-turnstile-response"]')?.value ||
-      "";
+      document.querySelector('input[name="cf-turnstile-response"]')?.value || "";
 
     try {
       const response = await fetch(
@@ -27,19 +26,31 @@ export function useContactForm() {
       );
 
       const result = await response.json();
-      if (!result.ok) alert(result.error || "Failed to send message.");
+      console.log("[DEBUG] result of submitting data:", result);
+
+      if (!response.ok || !result.ok) {
+        throw new Error(result.error || "Failed to send message.");
+      }
 
       form.reset();
       window.turnstile?.reset("#turnstile-widget");
-      setModalVisible(true);
+      setModal({
+        visible: true,
+        type: "success",
+        message: "Thank you! Your message has been sent successfully.",
+      });
     } catch (error) {
-      console.log("Failed to submit. Please try again later.");
-      console.log(error);
-      setModalVisible(false);
+      console.error("Failed to submit:", error);
+      setModal({
+        visible: true,
+        type: "error",
+        message:
+          "We couldn't send your message at this time. Please try again later.",
+      });
     } finally {
       setSubmitting(false);
     }
   };
 
-  return { handleSubmit, modalVisible, setModalVisible, isSubmitting };
+  return { handleSubmit, modal, setModal, isSubmitting };
 }
