@@ -5,6 +5,7 @@ export function useContactForm() {
   const [modalVisible, setModalVisible] = useState(false);
 
   const handleSubmit = async (e) => {
+    console.log("Submitting your mail form...");
     e.preventDefault();
     if (isSubmitting) return;
     setSubmitting(true);
