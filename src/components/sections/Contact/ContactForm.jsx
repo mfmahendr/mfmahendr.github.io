@@ -99,6 +99,7 @@ const Contact = () => {
             data-error-callback="onTurnstileError"
             data-refresh-expired="manual"
             data-refresh-timeout="manual"
+            data-retry-interval="10000"
           ></div>
 
           <button
