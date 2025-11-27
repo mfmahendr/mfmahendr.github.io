@@ -27,6 +27,30 @@
       "description": "GoAuthMe is a centralized authentication and authorization microservice designed to provide secure identity management for your applications. Built with a microservices architecture, it offers robust user management, multi-tenant support, and comprehensive security features.",
       "tags": ["Go Fiber", "gRPC", "Kubernetes", "MongoDB", "Redis", "Kafka"],
       "source": "https://github.com/mfmahendr/goauthme"
+    },
+    {
+      "id": "book-api",
+      "title": "Book API",
+      "short": "A lightweight RESTful API for managing books with Fiber and MongoDB.",
+      "description": "A simple RESTful API for managing books, built with Golang and Fiber. The project implements clean architecture using a controller–repository pattern and includes full CRUD operations, pagination, middleware, and MongoDB integration. It also supports environment configuration via .env and provides structured, maintainable Go code.",
+      "tags": ["Go", "Fiber", "MongoDB", "Docker", "Clean Architecture"],
+      "source": "https://github.com/mfmahendr/book-api"
+    },
+    {
+      "id": "stoccounting",
+      "title": "Stoccounting API",
+      "short": "Backend service for an inventory financial management system.",
+      "description": "Stoccounting is the backend service for an inventory financial management system designed to monitor cash flow, stock purchases, and sales transactions for trading businesses. The system generates key financial reports such as balance sheets, income statements, and cash flow statements, along with visualizations to help businesses assess their financial health and stock performance. Built as part of an academic project, this backend powers the web application using Node.js, Express.js, and MongoDB.",
+      "tags": ["Javascript", "Node.js", "Express.js", "MongoDB"],
+      "source": "https://github.com/mfmahendr/Stoccounting"
+    },
+    {
+      "id": "tanjungraja",
+      "title": "Desa Tanjung Raja Profile Website",
+      "short": "An official village profile website built to showcase Tanjung Raja’s potential.",
+      "description": "This project is one of the five work programs I carried out during the KKN-PPM UGM program from June to August 2023. I completed this project independently using a website builder (WordPress) over the course of approximately one month. The project was initiated due to the absence of an official village website, which limited public access to information about the potential of Tanjung Raja, Muara Enim. The final result is a fully developed village profile website featuring relevant content and optimized SEO to improve online visibility.",
+      "tags": ["Wordpress"],
+      "live": "http://tanjungraja-muaraenim.id/"
     }
   ]
 }

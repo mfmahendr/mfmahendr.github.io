@@ -6,11 +6,11 @@
     {
       "id": "url-shortener",
       "title": "Shorturl",
-      "short": "Layanan ringkas untuk memperpendek link, mencatat setiap klik, dan memfilter domain yang tidak jelas.",
+      "short": "Sebuah layanan untuk memperpendek link, mencatat setiap klik, dan memfilter domain yang tidak jelas.",
       "description": "Pengguna dapat membuat short link dengan merek sendiri, mengarahkan pengunjung secara instan, menjaga link tetap pribadi jika diinginkan, dan meninjau analitik klik secara real-time. Selain itu, pengguna juga dapat mengekspor statistik dalam format JSON atau CSV, serta mengelola domain yang diblokir.",
       "tags": ["Go", "Firestore", "Docker", "Google Cloud Run"],
       "source": "https://github.com/mfmahendr/url-shortener-backend",
-      "live": "https://shorturl.mfadhilmahendra.my.id/docs"
+      "live": "https://shorturl.mfadhilmahendra.my.id"
     },
     {
       "id": "cinemarate",
@@ -21,12 +21,36 @@
       "source": "https://github.com/mfmahendr/Cinemarate"
     },
     {
+      "id": "book-api",
+      "title": "Book API",
+      "short": "API sederhana untuk mengelola data buku menggunakan Fiber dan MongoDB.",
+      "description": "Sebuah RESTful API sederhana untuk mengelola data buku, dibangun menggunakan Golang dan Fiber. Proyek ini menerapkan clean architecture dengan pola controller–repository, mendukung operasi CRUD, paginasi, middleware, serta integrasi dengan MongoDB. API ini juga menggunakan konfigurasi lingkungan melalui .env dan memiliki struktur kode Go yang rapi dan mudah dipelihara.",
+      "tags": ["Go", "Fiber", "MongoDB", "Docker", "Clean Architecture"],
+      "source": "https://github.com/mfmahendr/book-api"
+    },
+    {
       "id": "goauthme",
       "title": "GoAuthMe",
       "short": "Microservices untuk menangani authentication, authorization, dan user management untuk proyek Anda.",
       "description": "GoAuthMe adalah microservice terpusat untuk authentication dan authorization yang dirancang untuk menyediakan manajemen identitas yang aman bagi aplikasi Anda. Dibangun dengan arsitektur microservices, layanan ini menawarkan manajemen pengguna yang tangguh, dukungan multi-tenant, dan fitur keamanan yang komprehensif.",
       "tags": ["Go Fiber", "gRPC", "Kubernetes", "MongoDB", "Redis", "Kafka"],
       "source": "https://github.com/mfmahendr/goauthme"
+    },
+    {
+      "id": "stoccounting",
+      "title": "Stoccounting API",
+      "short": "Layanan backend untuk sistem manajemen keuangan stok barang.",
+      "description": "Stoccounting adalah layanan backend untuk aplikasi sistem manajemen keuangan stok barang dagang. Aplikasi ini digunakan untuk memantau arus kas, pembelian, dan penjualan stok barang pada bisnis dagang. Sistem ini dapat menghasilkan laporan keuangan seperti neraca, laporan laba rugi, dan laporan arus kas, serta menyediakan visualisasi untuk membantu bisnis memantau kesehatan keuangan dan pengelolaan stok. Backend ini dibangun sebagai bagian dari proyek akademik menggunakan Node.js, Express.js, dan MongoDB.",
+      "tags": ["Javascript", "Node.js", "Express.js", "MongoDB"],
+      "source": "https://github.com/mfmahendr/Stoccounting"
+    },
+    {
+      "id": "tanjungraja",
+      "title": "Website Profil Desa Tanjung Raja",
+      "short": "Website profil resmi Desa Tanjung Raja untuk menampilkan potensi desa secara publik.",
+      "description": "Proyek ini merupakan salah satu dari lima program kerja yang saya laksanakan selama kegiatan KKN-PPM UGM pada Juni hingga Agustus 2023. Pengerjaan proyek dilakukan secara mandiri selama kurang lebih satu bulan dengan memanfaatkan platform website builder seperti WordPress. Inisiatif pembuatan website ini muncul karena sebelumnya Desa Tanjung Raja belum memiliki situs resmi, sehingga potensi desa belum dapat dipublikasikan secara luas. Hasil akhirnya adalah sebuah website resmi desa yang berisi konten informatif, terstruktur, serta telah dioptimalkan dari sisi SEO untuk meningkatkan visibilitas di mesin pencari.",
+      "tags": ["Wordpress"],
+      "live": "http://tanjungraja-muaraenim.id/"
     }
   ]
 }
