@@ -10,7 +10,7 @@
       "description": "User can create branded short links, redirect visitors instantly, keep links private if you wish, and review click analytics in real time. In addition, user can also export stats as JSON or CSV, and manage blacklisted domains.",
       "tags": ["Go", "Firestore", "Docker", "Google Cloud Run"],
       "source": "https://github.com/mfmahendr/url-shortener-backend",
-      "live": "https://shorturl.mfadhilmahendra.my.id/docs"
+      "live": "https://shorturl.mfadhilmahendra.my.id"
     },
     {
       "id": "cinemarate",
