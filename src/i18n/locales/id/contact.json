@@ -4,7 +4,7 @@
   "sub": {
     "form": {
       "headline": "Surat Menyurat",
-      "intro": "Anda dapat menggunakan formulir ini untuk terhubung, baik untuk merekrut saya ke pekerjaan atau ke dalam sebuah proyek, menjadi 'teman pena', atau lainnya.",
+      "intro": "Anda dapat menggunakan formulir ini untuk terhubung, baik untuk merekrut saya untuk sebuah proyek, menjadi 'teman pena', atau lainnya.",
       "labels": {
         "name": "NAMA ANDA",
         "email": "ALAMAT EMAIL",
@@ -23,6 +23,6 @@
   },
   "decorative": {
     "cutline": "GUNTING SEPANJANG GARIS PUTUS-PUTUS",
-    "mail_to": "KIRIM KE: Pengembang Backend, Kotak Pos <blot>0000</blot> Kota <tech>Tech</tech>, <code>00000</code>"
+    "mail_to": "KIRIM KE: Saya, Kotak Pos <blot>0000</blot> Kota <tech>Tech</tech>, <code>00000</code>"
   }
 }

@@ -6,26 +6,27 @@
     "pursuits": {
       "title": "Minat & Ketertarikan",
       "headline": "Topik yang Menarik",
-      "published": "TErakhir dicatat pada tanggal <smudge>x</smudge> Bulan <filler><blot>XYZZ</blot></filler>, 2025",
-      "intro": "<str>Kabinet keajaiban</str> ini adalah kolom di mana daftar topik-topik yang menarik minat dan keingintahuanku saat ini 'disimpan'.",
+      "published": "Terakhir dicatat pada tanggal <smudge>x</smudge> Bulan <filler><blot>XYZZ</blot></filler>, 2026",
+      "intro": "<str>Kabinet keajaiban</str> ini adalah kolom di mana daftar topik-topik yang menarik minat dan keingintahuan saya saat ini 'disimpan'.",
       "intro_correct_word": "Ruang kemelitan",
       "lists": [
         "<b>Pengembangan backend berbasis <i>cloud-native</i></b>: Membangun sistem backend yang kuat dengan pendekatan mikroservis dan orkestrasi kontainer.",
         "<b>Otomatisasi DevOps & kontainerisasi</b>: Mengotomatisasi alur CI/CD menggunakan alat seperti GitHub Actions, Docker, dan Kubernetes.",
-        "<b>Observabilitas sistem & arsitektur <i>serverless</i></b>: Menerapkan pelacakan, log, dan metrik untuk memantau sistem terdistribusi."
+        "<b>Arsitektur <i>clean</i></b>: Mengenai arsitektur yang mempertimbangkan kodenya dalam jangka panjang."
       ]
     },
     "learning": {
       "title": "Apa yang Sedang Dipelajari?",
       "headline": "ARTIKEL TERBARU: Yang Saat Ini Dipelajari Fadhil",
-      "published": "Terakhir diubah pada <bi>29 Oktober 2025</bi>",
+      "published": "Terakhir diubah pada <bi>29 Januari 2026</bi>",
       "intro": "Seorang pengembang perangkat lunak, yang memiliki minat belajar dalam <i>cloud computing</i>, pengembangan backend, dan DevOps, kini tengah memusatkan perhatian pada sejumlah topik teknis di area tersebut.",
       "topics": [
-        "Migrasi dari arsitektur monolitik ke mikroservis",
+        "Cloud Native Go - Building Reliable Services in Unreliable Environments",
+        "Pengembangan TUI dengan Golang Bubble Tea",
         "Penggunaan Kubernetes untuk orkestrasi kontainer",
-        "Penggunaan alat observabilitas dalam aplikasi backend"
+        "Pemrograman kompetitif dan berbagai coding interview pattern"
       ],
-      "outro": "<i>“Saya siap menerapkan semua yang saya pelajari, baik dalam proyek pribadi maupun tantangan profesional”</i>"
+      "outro": "<i>“Saya siap menerapkan semua yang saya pelajari”</i>"
     }
   }
 }

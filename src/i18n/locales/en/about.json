@@ -24,20 +24,56 @@
   },
   "articles": [
     {
-      "query_id": "backend_cloud",
-      "job_expectation": "Backend Developer or Cloud Computing",
+      "query_id": "developer",
+      "job_expectation": "Developer or Programmer",
       "contents": [
         {
-          "intro": "Meet <b>{{name}}</b>, a curious mind with degree from <b>{{univ}}</b>, majoring in <b>{{major}}</b>. He has a strong passion for backend development and cloud computing, with a growing interest in the world of DevOps."
+          "intro": "Meet <b>{{name}}</b>, a <b>{{univ}}</b> graduate in <b>{{major}}</b> with a high enthusiasm for software development. He is a problem solver who enjoys exploring various technologies to deliver innovative digital solutions."
         },
         {
-          "career_goal": "With hands-on experience in building scalable backend systems and cloud infrastructure, {{name}} is aiming for a career as a <b>{{career}}</b>. His work is grounded in clarity, reliability, and efficient execution."
+          "career_goal": "With experience building a variety of functional applications, {{name}} is now pursuing a career as a <b>{{career}}</b>. He focuses on writing efficient, high-quality code with the ultimate goal of creating products that provide real value to users."
         },
         {
-          "work_style": "He works well both independently and in collaborative environments with his strong sense of <i>responsibility</i>. As a <b>generalist</b>, he can bridge gaps between technical execution and business priorities. He's the kind of developer who cares as much about \"why\" as he does \"how\"."
+          "work_style": "As a <b>fast-learner</b>, he is highly adaptive to new technological developments and can work effectively in various team environments. He doesn't just focus on writing code; he is also critical in understanding user needs to ensure every feature built is truly on target."
         },
         {
-          "personal_interest": "Outside of work, he explores new tools or reads to stay sharp."
+          "personal_interest": "Outside of technical tasks, he enjoys expanding his horizons by studying the latest tech trends or reading books across various genres. These activities help him stay creative and maintain a balance between logical sharpness and empathy in his work."
+        }
+      ]
+    },
+    {
+      "query_id": "software",
+      "job_expectation": "Software Engineer",
+      "contents": [
+        {
+          "intro": "Get to know <b>{{name}}</b>, an exploratory engineer with great curiosity and a degree from <b>{{univ}}</b>, majoring in <b>{{major}}</b>. He has a deep interest in backend development and cloud computing."
+        },
+        {
+          "career_goal": "Equipped with hands-on experience in building various software projects, {{name}} is now aiming for a role as a <b>{{career}}</b> capable of creating impactful solutions for millions of users. He values software craftsmanship, focusing on clean, efficient code that is ready to face high-scale, fault-tolerant system challenges."
+        },
+        {
+          "work_style": "He is a reliable worker, both independently and in teams. As a <b>fast-learner</b> with the flexibility to work full-stack, he is ready to adapt to dynamic Agile environments. He can bridge technical requirements and business priorities in cross-functional settings to ensure top product quality. For him, understanding 'why' a system is designed is key to creating a satisfying user experience."
+        },
+        {
+          "personal_interest": "Beyond technical routines, he continues to sharpen his thinking by exploring new technologies and diving into technical literature. He believes that strong curiosity and agile learning are the primary assets for transforming into a world-class engineer."
+        }
+      ]
+    },
+    {
+      "query_id": "backend_cloud",
+      "job_expectation": "Backend Developer or Cloud Engineer",
+      "contents": [
+        {
+          "intro": "Get to know <b>{{name}}</b>, an exploratory engineer with great curiosity and a degree from <b>{{univ}}</b>, majoring in <b>{{major}}</b>. He has a deep interest in backend development and cloud computing."
+        },
+        {
+          "career_goal": "With hands-on experience in building scalable backend systems, {{name}} is currently pursuing a career as a <b>{{career}}</b>. Every piece of his work is built on the principles of clarity, reliability, and efficient execution."
+        },
+        {
+          "work_style": "He is a reliable worker, whether working independently or in a team. As a <b>generalist and fast-learner</b>, he is able to bridge technical needs and business priorities in multi-disciplinary environments. For him, understanding 'why' a solution is chosen is as important as understanding 'how' it is built or implemented."
+        },
+        {
+          "personal_interest": "Outside of technical routines, he enjoys learning about new technologies and tools or spending time reading fiction and technical literature to continue sharpening his empathy, insight, and knowledge."
         }
       ]
     },
@@ -46,34 +82,34 @@
       "job_expectation": "Backend Developer",
       "contents": [
         {
-          "intro": "(Backend) Meet <b>{{name}}</b>, a curious mind with degree from <b>{{univ}}</b>, majoring in <b>{{major}}</b>. He has a strong passion for backend development and cloud computing, with a growing interest in the world of DevOps."
+          "intro": "Introducing <b>{{name}}</b>, a software engineer graduated from <b>{{univ}}</b> in <b>{{major}}</b> who has a great passion for solving complex logic. He focuses his expertise on server-side development, database architecture, and data processing efficiency."
         },
         {
-          "career_goal": "With hands-on experience in building scalable backend systems and cloud infrastructure, {{name}} is aiming for a career as a <b>{{career}}</b>. His work is grounded in clarity, reliability, and efficient execution."
+          "career_goal": "With hands-on experience building backend systems through various portfolio projects, {{name}} is now pursuing a career as a <b>{{career}}</b>. He is committed to creating clean code and high performance to support reliable application functionality for users."
         },
         {
-          "work_style": "He works well both independently and in collaborative environments with his strong sense of <i>responsibility</i>. As a <b>generalist</b>, he can bridge gaps between technical execution and business priorities. He's the kind of developer who cares as much about \"why\" as he does \"how\"."
+          "work_style": "He is a reliable practitioner in both Agile teams and independent work. As a <b>fast-learner</b>, he can bridge business logic with efficient technical execution. For him, deeply understanding a system's workflow is key to building robust backend solutions."
         },
         {
-          "personal_interest": "Outside of work, he explores new tools or reads to stay sharp."
+          "personal_interest": "Outside of his coding routine, he enjoys exploring new technologies or delving into technical literature to sharpen his intuition and problem-solving skills."
         }
       ]
     },
     {
       "query_id": "cloud",
-      "job_expectation": "Cloud Computing",
+      "job_expectation": "Cloud Engineer / DevOps",
       "contents": [
         {
-          "intro": "(Cloud) Meet <b>{{name}}</b>, a curious mind with degree from <b>{{univ}}</b>, majoring in <b>{{major}}</b>. He has a strong passion for backend development and cloud computing, with a growing interest in the world of DevOps."
+          "intro": "Meet <b>{{name}}</b>, a <b>{{univ}}</b> graduate in <b>{{major}}</b> with a deep interest in modern infrastructure. His main focus is ensuring applications run in stable, secure environments capable of handling high traffic loads."
         },
         {
-          "career_goal": "With hands-on experience in building scalable backend systems and cloud infrastructure, {{name}} is aiming for a career as a <b>{{career}}</b>. His work is grounded in clarity, reliability, and efficient execution."
+          "career_goal": "Having experience managing cross-platform cloud services including AWS and Azure during college, as well as GCP through the Bangkit Cloud Computing Learning Path, {{name}} is now pursuing a career as a <b>{{career}}</b>. He focuses on implementing cloud-native technologies in GCP environments to build highly available and fault-tolerant systems, supported by deployment experience in several portfolio projects."
         },
         {
-          "work_style": "He works well both independently and in collaborative environments with his strong sense of <i>responsibility</i>. As a <b>generalist</b>, he can bridge gaps between technical execution and business priorities. He's the kind of developer who cares as much about \"why\" as he does \"how\"."
+          "work_style": "He is capable of contributing to infrastructure delivery processes to ensure they run consistently and sustainably. He is a reliable worker, both independently and in teams, collaborating across functions to ensure smooth deployment cycles. For him, infrastructure stability is the foundation of digital product success."
         },
         {
-          "personal_interest": "Outside of work, he explores new tools or reads to stay sharp."
+          "personal_interest": "When not optimizing servers, he spends time reading books or studying the latest observability tools to broaden his insights into building stable systems."
         }
       ]
     }

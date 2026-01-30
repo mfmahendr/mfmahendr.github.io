@@ -6,38 +6,74 @@
       "title": "Status",
       "headline": "Berita <blot>TERKINI</blot>",
       "available": {
-        "img_alt": "Pengembang menyatakan siap bekerja",
-        "lead": "PENGEMBANG LOKAL UMUMKAN: “SIAP BEKERJA!”",
-        "desc": "Seorang engineer tampil dengan penuh keyakinan, menyampaikan pesan tegas: <bi>“Saya siap. Kirimkan pesan sekarang.”</bi> Sumber <filler><blot>XYZ</blot></filler> menyebutkan bahwa ia fleksibel untuk bekerja <u>di kantor dan <i>work from anywhere</i></u>."
+        "img_alt": "Developer ini menyatakan siap bekerja",
+        "lead": "DEVELOPER LOKAL UMUMKAN: “SIAP BEKERJA!”",
+        "desc": "Seorang engineer tampil penuh percaya diri dengan pesan tegas: <bi>“Saya siap. Mari berkolaborasi sekarang.”</bi> Sumber <filler><blot>XYZ</blot></filler> menyebutkan bahwa ia sangat fleksibel, baik untuk bekerja <u>di kantor (WFO) maupun dari mana saja (WFA)</u>."
       },
       "unavailable": {
-        "img_alt": "Pengembang saat ini tidak tersedia untuk pekerjaan",
-        "lead": "PENGEMBANG SEDANG ISTIRAHAT, TIDAK TERSEDIA SAAT INI",
-        "desc": "Dalam pembaruan terbaru, pengembang mengumumkan jeda sementara dari proyek baru. \"Saya mengambil waktu untuk beristirahat dan fokus pada pengembangan diri,\" ungkapnya. Nantikan informasi ketersediaan selanjutnya."
+        "img_alt": "Developer saat ini tidak sedang mencari peluang baru",
+        "lead": "DEVELOPER LOKAL MASIH FOKUS PADA PROYEK BERJALAN",
+        "desc": "Dalam pembaruan terbaru, developer mengumumkan jeda sementara dari proyek baru. \"Saya mengambil waktu untuk beristirahat dan fokus pada pengembangan diri,\" ungkapnya. Nantikan informasi ketersediaan selanjutnya."
       },
       "employed": {
-        "img_alt": "Pengembang saat ini sedang bekerja",
-        "lead": "PENGEMBANG LOKAL MENEGASKAN SEDANG BEKERJA",
-        "desc": "Sumber yang dapat dipercaya mengonfirmasi pengembang saat ini fokus pada tanggung jawab pekerjaan yang sedang berjalan dan tidak mencari pekerjaan tambahan untuk sementara."
+        "img_alt": "Developer saat ini sedang bekerja",
+        "lead": "DEVELOPER LOKAL MENEGASKAN SEDANG BEKERJA",
+        "desc": "Sumber terpercaya mengonfirmasi bahwa saat ini sang pengembang sedang mendedikasikan seluruh waktunya untuk tanggung jawab yang ada dan belum menerima proyek tambahan dalam waktu dekat."
       }
     }
   },
   "articles": [
     {
+      "query_id": "developer",
+      "job_expectation": "Developer atau Programmer",
+      "contents": [
+        {
+          "intro": "Inilah <b>{{name}}</b>, seorang lulusan <b>{{univ}}</b> dari jurusan <b>{{major}}</b> yang memiliki antusiasme tinggi dalam dunia pengembangan perangkat lunak. Ia adalah seorang pemecah masalah yang senang mengeksplorasi berbagai teknologi untuk menghadirkan solusi digital yang inovatif."
+        },
+        {
+          "career_goal": "Dengan pengalaman membangun berbagai aplikasi fungsional, {{name}} kini meniti karier sebagai <b>{{career}}</b>. Ia berfokus pada penulisan kode yang efisien dan berkualitas tinggi, dengan tujuan akhir menciptakan produk yang memberikan nilai nyata bagi penggunanya."
+        },
+        {
+          "work_style": "Sebagai seorang <b>fast-learner</b>, ia sangat adaptif terhadap perkembangan teknologi baru dan mampu bekerja efektif di berbagai lingkungan tim. Ia tidak hanya fokus pada penulisan kode, tetapi juga kritis dalam memahami kebutuhan pengguna guna memastikan setiap fitur yang dibangun benar-benar tepat sasaran."
+        },
+        {
+          "personal_interest": "Di luar kesibukan teknis, ia senang memperluas cakrawala dengan mempelajari tren teknologi terbaru atau membaca buku lintas genre. Aktivitas ini membantunya tetap kreatif dan menjaga keseimbangan antara ketajaman logika serta empati dalam berkarya."
+        }
+      ]
+    },
+    {
+      "query_id": "software",
+      "job_expectation": "Software Engineer",
+      "contents": [
+        {
+          "intro": "Kenali lebih dekat <b>{{name}}</b>, seorang <i>engineer</i> berjiwa eksploratif dengan rasa ingin tahu yang besar dan merupakan lulusan dari <b>{{univ}}</b>, di jurusan <b>{{major}}</b>. Ia memiliki minat mendalam di bidang <i>backend development</i> dan <i>cloud computing</i>."
+        },
+        {
+          "career_goal": "Berbekal pengalaman <i>hands-on</i> dalam membangun berbagai proyek perangkat lunak, {{name}} kini sedang mengincar peran sebagai <b>{{career}}</b> yang mampu menciptakan solusi berdampak bagi jutaan pengguna. Ia sangat menjunjung tinggi <i>software craftsmanship</i>, fokus pada penulisan kode yang bersih (<i>clean code</i>), efisien, dan siap menghadapi berbagai bentuk tantangan sistem <i>high-scale</i> yang <i>fault-tolerant</i>."
+        },
+        {
+          "work_style": "Ia adalah tipe pekerja yang andal, baik secara mandiri maupun tim. Sebagai seorang <b>fast-learner</b> dengan fleksibilitas untuk bekerja <i>full-stack</i>, ia siap beradaptasi dalam lingkungan <i>Agile</i> yang dinamis. Ia mampu menjembatani kebutuhan teknis dan prioritas bisnis di lingkungan yang lintas fungsi dan multi-disiplin untuk memastikan kualitas produk terbaik. Baginya, memahami 'mengapa' sebuah sistem dirancang adalah kunci untuk menciptakan pengalaman pengguna yang memuaskan."
+        },
+        {
+          "personal_interest": "Di luar rutinitas teknis, ia terus mengasah ketajaman berpikirnya dengan mengeksplorasi teknologi terbaru dan mendalami literatur teknis. Ia percaya bahwa rasa ingin tahu yang besar dan kemampuan belajar yang gesit adalah modal utama untuk bertransformasi menjadi <i>world-class engineer</i> di masa depan."
+        }
+      ]
+    },
+    {
       "query_id": "backend_cloud",
       "job_expectation": "Backend Developer atau Cloud Engineer",
       "contents": [
         {
-          "intro": "Inilah <b>{{name}}</b>, seorang <i>engineer</i> dengan rasa ingin tahu yang besar dan merupakanlulusan dari <b>{{univ}}</b>, di bidang <b>{{major}}</b>. Ia memiliki ketertarikan kuat pada pengembangan <i>backend</i> dan <i>cloud computing</i>, serta sedang mendalami dunia <i>DevOps</i>."
+          "intro": "Kenali lebih dekat <b>{{name}}</b>, seorang <i>engineer</i> berjiwa eksploratif dengan rasa ingin tahu yang besar dan merupakan lulusan dari <b>{{univ}}</b>, di jurusan <b>{{major}}</b>. Ia memiliki minat mendalam di bidang <i>backend development</i> dan <i>cloud computing</i>."
         },
         {
-          "career_goal": "Dengan pengalaman <i>hands-on</i> dalam membangun sistem backend yang <i>scalable</i>, {{name}} tengah meniti karier sebagai <b>{{career}}</b>. Karyanya dibangun di atas fondasi kejelasan, keandalan, dan eksekusi yang efisien."
+          "career_goal": "Berbekal pengalaman <i>hands-on</i> dalam membangun sistem backend yang <i>scalable</i>, {{name}} kini sedang meniti karier sebagai <b>{{career}}</b>. Setiap karyanya dibangun di atas prinsip kejelasan, keandalan, dan efisiensi eksekusi."
         },
         {
-          "work_style": "Ia mampu bekerja secara mandiri maupun dalam tim, berkat rasa tanggung jawab yang tinggi. Sebagai seorang <b>generalist dan <i>fast-learner</i></b>, ia mampu menjembatani kebutuhan teknis dan prioritas bisnis di lingkungan yang multi-disiplin. Ia bukan hanya memikirkan “bagaimana” sesuatu bisa terjadi, tetapi juga peduli pada “mengapa”."
+          "work_style": "Ia adalah tipe pekerja yang andal, baik secara mandiri maupun tim. Sebagai seorang <b>generalist dan <i>fast-learner</i></b>, ia mampu menjembatani kebutuhan teknis dan prioritas bisnis di lingkungan yang multi-disiplin. Baginya, memahami “mengapa” sebuah solusi diputuskan sama pentingnya dengan memahami “bagaimana” caranya terjadi, dibangun, atau dibuat."
         },
         {
-          "personal_interest": "Di luar pekerjaan, ia gemar mempelajari teknologi dan <i>tools</i> baru atau meluangkan waktu untuk membaca buku, baik fiksi maupun non-fiksi teknikal untuk terus mempertajam empati, wawasan, dan pengetahuan."
+          "personal_interest": "Di luar rutinitas teknis, ia gemar mempelajari teknologi dan <i>tools</i> baru atau meluangkan waktu untuk membaca buku, baik fiksi maupun literatur teknis untuk terus mempertajam empati, wawasan, dan pengetahuan."
         }
       ]
     },
@@ -46,34 +82,34 @@
       "job_expectation": "Backend Developer",
       "contents": [
         {
-          "intro": "Inilah <b>{{name}}</b>, seorang <i>engineer</i> dengan rasa ingin tahu yang besar dan merupakanlulusan dari <b>{{univ}}</b>, di bidang <b>{{major}}</b>. Ia memiliki ketertarikan kuat pada pengembangan <i>backend</i> dan <i>cloud computing</i>, serta sedang mendalami dunia <i>DevOps</i>."
+          "intro": "Inilah <b>{{name}}</b>, seorang <i>software engineer</i> lulusan <b>{{univ}}</b> jurusan <b>{{major}}</b> yang memiliki gairah besar dalam memecahkan logika kompleks. Ia memfokuskan keahliannya pada pengembangan sisi server, arsitektur database, dan efisiensi pemrosesan data."
         },
         {
-          "career_goal": "Dengan pengalaman <i>hands-on</i> dalam membangun sistem backend yang <i>scalable</i>, {{name}} tengah meniti karier sebagai <b>{{career}}</b>. Karyanya dibangun di atas fondasi kejelasan, keandalan, dan eksekusi yang efisien."
+          "career_goal": "Berbekal pengalaman <i>hands-on</i> dalam membangun sistem backend melalui berbagai proyek portofolionya, {{name}} kini meniti karier sebagai <b>{{career}}</b>. Ia berkomitmen menciptakan kode yang bersih (<i>clean code</i>) dan performa tinggi untuk mendukung fungsionalitas aplikasi yang andal bagi pengguna."
         },
         {
-          "work_style": "Ia mampu bekerja secara mandiri maupun dalam tim, berkat rasa tanggung jawab yang tinggi. Sebagai seorang <b>generalist dan <i>fast-learner</i></b>, ia mampu menjembatani kebutuhan teknis dan prioritas bisnis di lingkungan yang multi-disiplin. Ia bukan hanya memikirkan “bagaimana”, tetapi juga peduli pada “mengapa”."
+          "work_style": "Ia adalah tipe praktisi yang andal dalam tim <i>Agile</i> maupun bekerja mandiri. Sebagai seorang <b>fast-learner</b>, ia mampu menjembatani logika bisnis dengan eksekusi teknis yang efisien. Baginya, memahami alur kerja sebuah sistem secara mendalam adalah kunci untuk membangun solusi <i>backend</i> yang kuat."
         },
         {
-          "personal_interest": "Di luar pekerjaan, ia gemar mempelajari teknologi dan <i>tools</i> baru atau meluangkan waktu untuk membaca buku, baik fiksi maupun non-fiksi teknikal untuk terus mempertajam empati, wawasan, dan pengetahuan."
+          "personal_interest": "Di luar rutinitas koding, ia gemar mengeksplorasi teknologi baru atau mendalami buku literatur teknis demi terus mempertajam intuisi dan kemampuannya dalam memecahkan masalah."
         }
       ]
     },
     {
       "query_id": "cloud",
-      "job_expectation": "Cloud Computing",
+      "job_expectation": "Cloud Engineer / DevOps",
       "contents": [
         {
-          "intro": "Inilah <b>{{name}}</b>, seorang <i>engineer</i> dengan rasa ingin tahu yang besar dan merupakanlulusan dari <b>{{univ}}</b>, di bidang <b>{{major}}</b>. Ia memiliki ketertarikan kuat pada pengembangan <i>backend</i> dan <i>cloud computing</i>, serta sedang mendalami dunia <i>DevOps</i>."
+          "intro": "Kenali lebih dekat <b>{{name}}</b>, seorang lulusan <b>{{univ}}</b> di bidang <b>{{major}}</b> yang memiliki minat mendalam pada infrastruktur modern. Fokus utamanya adalah memastikan aplikasi berjalan di lingkungan yang stabil, aman, dan siap menghadapi beban trafik yang tinggi."
         },
         {
-          "career_goal": "Dengan pengalaman <i>hands-on</i> dalam membangun proyek-proyek sistem backend yang <i>scalable</i>, {{name}} tengah meniti karier sebagai <b>{{career}}</b>. Karyanya dibangun di atas fondasi kejelasan, keandalan, dan eksekusi yang efisien."
+          "career_goal": "Dengan pengalaman mempelajari dan mengelola layanan cloud lintas platform yang mencakup AWS dan Azure selama perkuliahan, serta GCP melalui program Bangkit Cloud Computing Learning Path, {{name}} kini meniti karier sebagai <b>{{career}}</b>. Ia berfokus pada implementasi teknologi <i>cloud-native</i> di lingkungan GCP untuk membangun sistem yang <i>highly available</i> dan <i>fault-tolerant</i>, didukung oleh pengalaman <i>deployment</i> pada beberapa proyek portofolio."
         },
         {
-          "work_style": "Ia mampu bekerja secara mandiri maupun dalam tim, berkat rasa tanggung jawab yang tinggi. Sebagai seorang <b>generalist dan <i>fast-learner</i></b>, ia mampu menjembatani kebutuhan teknis dan prioritas bisnis di lingkungan yang multi-disiplin. Ia bukan hanya memikirkan “bagaimana”, tetapi juga peduli pada “mengapa”."
+          "work_style": "Ia mampu berkontribusi pada proses delivery infrastruktur agar berjalan konsisten dan berkelanjutan. Ia adalah tipe pekerja yang andal, baik secara mandiri maupun tim. Ia sangat mampu berkolaborasi secara lintas fungsi untuk memastikan siklus <i>deployment</i> berjalan lancar. Baginya, stabilitas infrastruktur adalah fondasi utama dari kesuksesan sebuah produk digital."
         },
         {
-          "personal_interest": "Di luar pekerjaan, ia gemar mempelajari teknologi dan <i>tools</i> baru atau meluangkan waktu untuk membaca buku, baik fiksi maupun non-fiksi teknikal untuk terus mempertajam empati, wawasan, dan pengetahuan."
+          "personal_interest": "Saat sedang tidak mengoptimasi server, ia meluangkan waktu untuk membaca buku atau mempelajari alat observabilitas terbaru guna memperluas wawasan dalam membangun sistem yang stabil."
         }
       ]
     }

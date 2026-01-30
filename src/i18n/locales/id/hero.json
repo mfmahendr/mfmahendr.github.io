@@ -1,6 +1,6 @@
 {
-  "headline_main": "PROGRAMMER MERILIS",
+  "headline_main": "BELIAU INI RILIS",
   "headline_sub": "PORTOFOLIONYA",
-  "intro": "Dalam edisi kali ini, sorotan tertuju pada <u><b>{{name}}</b></u>, seorang pengembang <b>backend</b> yang <blurred>dikenal memiliki pendekatan <blot>sistematis terhadap struktur sistem dan keandalan. Dengan pemahaman mendalam mengenai teknologi komputasi awan, ia merancang layanan yang siap dikembangkan dalam lingkungan cloud</blot> yang skalabel.</blurred>",
+  "intro": "Edisi kali ini menyoroti profil <u><b>{{name}}</b></u>, seorang pengembang <b>perangkat lunak</b> yang <blurred>dikenal lewat pendekatan <blot>sistematis dalam membangun solusi digital. Berbekal keahlian teknis yang solid, ia merancang arsitektur sistem yang efisien, <i>reliable</i>, dan siap menghadapi kebutuhan industri</blot> masa depan yang dinamis.</blurred>",
   "continued_cta": "Selengkapnya di Halaman <blot>A6</blot> →"
 }

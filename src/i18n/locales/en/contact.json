@@ -4,7 +4,7 @@
   "sub": {
     "form": {
       "headline": "Mail Form",
-      "intro": "You can use this form to connect, whether it's to hire me, for a project invite, or else.",
+      "intro": "You can use this form to connect, whether it's to hire me for a project invite, or else.",
       "labels": {
         "name": "YOUR NAME",
         "email": "EMAIL ADDRESS",
@@ -23,6 +23,6 @@
   },
   "decorative": {
     "cutline": "CUT ALONG DOTTED LINED",
-    "mail_to": "MAIL TO: Backend Developer, PO Box <blot>0000</blot> <tech>Tech</tech> City, <code>00000</code>"
+    "mail_to": "MAIL TO: Me, PO Box <blot>0000</blot> <tech>Tech</tech> City, <code>00000</code>"
   }
 }

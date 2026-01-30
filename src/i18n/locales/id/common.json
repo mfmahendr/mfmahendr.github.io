@@ -10,7 +10,9 @@
   "buttons": {
     "hire": "REKRUT",
     "source_code": "SOURCE CODE",
+    "live_apps": "LIVE APPS",
     "live_docs": "LIVE DOCS",
+    "download": "DOWNLOAD",
     "mail_form": "KIRIM FORMULIR",
     "continue": "Selengkapnya"
   },
@@ -29,5 +31,8 @@
       "title": "Terjadi Kesalahan",
       "message": "Terjadi kesalahan. Silakan coba lagi."
     }
+  },
+  "ads": {
+    "for_rent": "Iklan Disewakan"
   }
 }

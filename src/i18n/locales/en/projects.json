@@ -5,52 +5,108 @@
   "projects": [
     {
       "id": "url-shortener",
-      "title": "URL Shortener",
-      "short": "A compact service for shrinking links, logging every click, and filtering obscure domains.",
-      "description": "User can create branded short links, redirect visitors instantly, keep links private if you wish, and review click analytics in real time. In addition, user can also export stats as JSON or CSV, and manage blacklisted domains.",
+      "skills_query": ["backend", "frontend", "cloud", "qa"],
+      "title": "Shorturl",
+      "short": "A link shortening service that tracks clicks and filters suspicious domains.",
+      "description": "Users can create custom branded short links, redirect visitors, and review real-time click analytics. It supports data export in JSON or CSV formats, while maintaining security through an admin-controlled domain blocking feature.",
       "tags": ["Go", "Firestore", "Docker", "Google Cloud Run"],
-      "source": "https://github.com/mfmahendr/url-shortener-backend",
-      "live": "https://shorturl.mfadhilmahendra.my.id"
+      "sources": {
+        "backend": "https://github.com/mfmahendr/url-shortener-backend",
+        "frontend": "https://github.com/mfmahendr/shorturl"
+      },
+      "live_apps": "https://shorturl.mfadhilmahendra.my.id"
     },
     {
       "id": "cinemarate",
+      "skills_query": ["backend"],
       "title": "Cinemarate",
-      "short": "Microservices application allowing users to rate movies",
-      "description": "Cinemarate enables users to fetch, rate, and manage movie metadata, using an API Gateway that translates REST requests to internal gRPC services. This project demonstrates practical microservice patterns such as client-side discovery, aggregator pattern, API gateway for request entry point, and shared database for now (but \"database per service\" can be implemented).",
+      "short": "A microservices-based application for movie rating and management.",
+      "description": "Cinemarate enables users to fetch, rate, and manage movie metadata through an API Gateway that translates REST requests to internal gRPC services. This project demonstrates patterns such as client-side discovery, aggregators, and the use of an API gateway as a single entry point.",
       "tags": ["Go Fiber", "MySQL", "Consul", "Docker", "gRPC"],
       "source": "https://github.com/mfmahendr/Cinemarate"
     },
     {
-      "id": "goauthme",
-      "title": "GoAuthMe",
-      "short": "Microservices for handling authentication, authorization, and user management for your project.",
-      "description": "GoAuthMe is a centralized authentication and authorization microservice designed to provide secure identity management for your applications. Built with a microservices architecture, it offers robust user management, multi-tenant support, and comprehensive security features.",
-      "tags": ["Go Fiber", "gRPC", "Kubernetes", "MongoDB", "Redis", "Kafka"],
-      "source": "https://github.com/mfmahendr/goauthme"
-    },
-    {
       "id": "book-api",
+      "skills_query": ["backend"],
       "title": "Book API",
-      "short": "A lightweight RESTful API for managing books with Fiber and MongoDB.",
-      "description": "A simple RESTful API for managing books, built with Golang and Fiber. The project implements clean architecture using a controller–repository pattern and includes full CRUD operations, pagination, middleware, and MongoDB integration. It also supports environment configuration via .env and provides structured, maintainable Go code.",
+      "short": "A straightforward API for managing book data and collections.",
+      "description": "A RESTful API built with Go and Fiber. It implements a controller-repository pattern and supports CRUD operations, pagination, middleware, and MongoDB integration. The project features clean Go code structure and environment configuration via .env for easy maintenance.",
       "tags": ["Go", "Fiber", "MongoDB", "Docker", "Clean Architecture"],
       "source": "https://github.com/mfmahendr/book-api"
     },
     {
+      "id": "book-tracking-api",
+      "skills_query": ["backend"],
+      "title": "Book Tracking API",
+      "short": "A reading activity management system with layered access control and high-performance caching.",
+      "description": "A backend service to manage personal book catalogs and reading progress. This project served as a playground for implementing advanced security, including JWT authentication with Redis and precise Role-Based Access Control (RBAC) to ensure data privacy.",
+      "tags": [
+        "Go",
+        "Fiber",
+        "MongoDB",
+        "Redis",
+        "JWT",
+        "Google Wire",
+        "Docker"
+      ],
+      "source": "https://github.com/mfmahendr/book-tracking"
+    },
+    {
+      "id": "contact-form-service",
+      "skills_query": ["backend", "cloud"],
+      "title": "Serverless Mailer Service",
+      "short": "Automated message delivery service built on serverless architecture and Resend API integration.",
+      "description": "Bridging the communication gap between visitors and the site owner through serverless architecture. It utilizes Cloudflare Workers for instant, efficient message handling without server management, paired with Resend for secure and reliable email delivery.",
+      "tags": ["Cloudflare Workers", "Resend", "JavaScript"]
+    },
+    {
+      "id": "parking-app-cli",
+      "skills_query": ["backend", "logic"],
+      "title": "Parking CLI Tool",
+      "short": "A command-line parking management system featuring an interactive REPL mode.",
+      "description": "A terminal-based solution for managing parking slots, supporting both REPL and file-based input automation. The project focuses on data structure logic to accurately track capacity, vehicle status, and fee calculations.",
+      "tags": ["Go", "CLI"],
+      "source": "https://github.com/mfmahendr/parking-app",
+      "release": "https://github.com/mfmahendr/parking-app/releases/tag/v0.1.1"
+    },
+    {
       "id": "stoccounting",
+      "skills_query": ["backend"],
       "title": "Stoccounting API",
-      "short": "Backend service for an inventory financial management system.",
-      "description": "Stoccounting is the backend service for an inventory financial management system designed to monitor cash flow, stock purchases, and sales transactions for trading businesses. The system generates key financial reports such as balance sheets, income statements, and cash flow statements, along with visualizations to help businesses assess their financial health and stock performance. Built as part of an academic project, this backend powers the web application using Node.js, Express.js, and MongoDB.",
+      "short": "A backend service for inventory and financial management systems.",
+      "description": "Stoccounting manages cash flow, purchases, and sales for retail businesses. It generates financial statements such as balance sheets and profit/loss reports, providing visualizations to monitor business health. Developed as part of a group academic project using Node.js, Express, and MongoDB.",
       "tags": ["Javascript", "Node.js", "Express.js", "MongoDB"],
       "source": "https://github.com/mfmahendr/Stoccounting"
     },
     {
+      "id": "notes-app-fullstack",
+      "skills_query": ["backend", "frontend"],
+      "title": "Notes Application",
+      "short": "A personal note-taking app featuring full-stack JavaScript integration.",
+      "description": "Connecting a responsive React interface with a Hapi Framework backend. This project emphasizes clean RESTful API implementation, client-side state management, and code standardization via ESLint. It served as a final project for a Dicoding certification course.",
+      "tags": ["React", "Hapi.js", "Node.js", "JavaScript", "RESTful API"],
+      "sources": {
+        "backend": "https://github.com/mfmahendr/notes-app-back-end",
+        "frontend": "https://github.com/mfmahendr/personal-notes-react-app"
+      }
+    },
+    {
       "id": "tanjungraja",
-      "title": "Desa Tanjung Raja Profile Website",
-      "short": "An official village profile website built to showcase Tanjung Raja’s potential.",
-      "description": "This project is one of the five work programs I carried out during the KKN-PPM UGM program from June to August 2023. I completed this project independently using a website builder (WordPress) over the course of approximately one month. The project was initiated due to the absence of an official village website, which limited public access to information about the potential of Tanjung Raja, Muara Enim. The final result is a fully developed village profile website featuring relevant content and optimized SEO to improve online visibility.",
+      "skills_query": ["wordpress", "frontend"],
+      "title": "Tanjung Raja Village Website",
+      "short": "Official profile website for Tanjung Raja Village to showcase local potential.",
+      "description": "Developed independently as part of the UGM KKN-PPM program in 2023. This initiative provided the village with its first official digital presence, using WordPress to build an informative, structured site optimized for SEO to improve visibility in search engines.",
       "tags": ["Wordpress"],
-      "live": "http://tanjungraja-muaraenim.id/"
+      "live_apps": "http://tanjungraja-muaraenim.id/"
+    },
+    {
+      "id": "porto-news",
+      "skills_query": ["frontend", "ui-ux"],
+      "title": "Fadhil PortoNews",
+      "short": "A digital portfolio platform featuring a classic newspaper aesthetic and multi-language support.",
+      "description": "A design experiment delivering a vintage feel through modern technology. Built with React and Tailwind CSS, this site prioritizes both unique visuals and optimal performance, featuring i18n support to engage a global audience personally.",
+      "tags": ["React", "Vite", "Tailwind CSS", "i18next"],
+      "live_apps": "http://mfadhilmahendra.my.id"
     }
   ]
 }

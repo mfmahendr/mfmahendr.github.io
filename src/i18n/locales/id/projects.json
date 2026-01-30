@@ -5,52 +5,108 @@
   "projects": [
     {
       "id": "url-shortener",
+      "skills_query": ["backend", "frontend", "cloud", "qa"],
       "title": "Shorturl",
       "short": "Sebuah layanan untuk memperpendek link, mencatat setiap klik, dan memfilter domain yang tidak jelas.",
-      "description": "Pengguna dapat membuat short link dengan merek sendiri, mengarahkan pengunjung secara instan, menjaga link tetap pribadi jika diinginkan, dan meninjau analitik klik secara real-time. Selain itu, pengguna juga dapat mengekspor statistik dalam format JSON atau CSV, serta mengelola domain yang diblokir.",
+      "description": "Pengguna dapat membuat short link untuk mereka sendiri, mengarahkan pengunjung, dan meninjau analitik atau jumlah klik secara real-time. Selain itu, pengguna juga dapat mengekspor statistik dalam format JSON atau CSV. Keamanan tetap terjaga dengan fitur blokir domain yang bisa dilakukan oleh admin.",
       "tags": ["Go", "Firestore", "Docker", "Google Cloud Run"],
-      "source": "https://github.com/mfmahendr/url-shortener-backend",
-      "live": "https://shorturl.mfadhilmahendra.my.id"
+      "sources": {
+        "backend": "https://github.com/mfmahendr/url-shortener-backend",
+        "frontend": "https://github.com/mfmahendr/shorturl"
+      },
+      "live_apps": "https://shorturl.mfadhilmahendra.my.id"
     },
     {
       "id": "cinemarate",
+      "skills_query": ["backend"],
       "title": "Cinemarate",
-      "short": "Aplikasi microservices yang memungkinkan pengguna menilai film",
-      "description": "Cinemarate memungkinkan pengguna mengambil, menilai, dan mengelola metadata film, menggunakan API Gateway yang menerjemahkan permintaan REST ke layanan gRPC internal. Proyek ini menunjukkan pola microservice praktis seperti client-side discovery, aggregator pattern, API gateway sebagai titik masuk permintaan, dan shared database untuk sementara (meskipun \"database per service\" juga bisa diterapkan).",
+      "short": "Aplikasi microservices untuk menilai film",
+      "description": "Cinemarate memungkinkan pengguna mengambil, menilai, dan mengelola metadata film, menggunakan API Gateway yang mentranslasikan permintaan REST ke layanan gRPC internal. Proyek ini mendemonstrasikan client-side discovery pattern, aggregator pattern, API gateway sebagai titik masuk permintaan, dan shared database untuk sementara (meskipun \"database per service\" juga bisa diterapkan).",
       "tags": ["Go Fiber", "MySQL", "Consul", "Docker", "gRPC"],
       "source": "https://github.com/mfmahendr/Cinemarate"
     },
     {
       "id": "book-api",
+      "skills_query": ["backend"],
       "title": "Book API",
-      "short": "API sederhana untuk mengelola data buku menggunakan Fiber dan MongoDB.",
-      "description": "Sebuah RESTful API sederhana untuk mengelola data buku, dibangun menggunakan Golang dan Fiber. Proyek ini menerapkan clean architecture dengan pola controller–repository, mendukung operasi CRUD, paginasi, middleware, serta integrasi dengan MongoDB. API ini juga menggunakan konfigurasi lingkungan melalui .env dan memiliki struktur kode Go yang rapi dan mudah dipelihara.",
+      "short": "API sederhana untuk mengelola data buku menggunakan.",
+      "description": "Sebuah RESTful API sederhana untuk mengelola data buku, dibangun menggunakan Golang dan Fiber. Proyek ini menerapkan arsitektur dengan pola controller–repository, mendukung operasi CRUD, paginasi, middleware, serta integrasi dengan MongoDB. API ini juga menggunakan konfigurasi melalui .env dan memiliki struktur kode Go yang rapi dan mudah di-maintain.",
       "tags": ["Go", "Fiber", "MongoDB", "Docker", "Clean Architecture"],
       "source": "https://github.com/mfmahendr/book-api"
     },
     {
-      "id": "goauthme",
-      "title": "GoAuthMe",
-      "short": "Microservices untuk menangani authentication, authorization, dan user management untuk proyek Anda.",
-      "description": "GoAuthMe adalah microservice terpusat untuk authentication dan authorization yang dirancang untuk menyediakan manajemen identitas yang aman bagi aplikasi Anda. Dibangun dengan arsitektur microservices, layanan ini menawarkan manajemen pengguna yang tangguh, dukungan multi-tenant, dan fitur keamanan yang komprehensif.",
-      "tags": ["Go Fiber", "gRPC", "Kubernetes", "MongoDB", "Redis", "Kafka"],
-      "source": "https://github.com/mfmahendr/goauthme"
+      "id": "book-tracking-api",
+      "skills_query": ["backend"],
+      "title": "Book Tracking API",
+      "short": "Sistem manajemen aktivitas membaca dengan kontrol akses berlapis dan caching performa tinggi.",
+      "description": "Layanan backend untuk mengelola katalog buku dan progres membaca pengguna secara personal. Proyek ini merupakan ruang eksperimen  bagi saya dalam menerapkan keamanan tingkat tinggi, mulai dari autentikasi JWT dengan Redis, hingga sistem otorisasi (RBAC) yang presisi untuk menjaga privasi data pengguna.",
+      "tags": [
+        "Go",
+        "Fiber",
+        "MongoDB",
+        "Redis",
+        "JWT",
+        "Google Wire",
+        "Docker"
+      ],
+      "source": "https://github.com/mfmahendr/book-tracking"
+    },
+    {
+      "id": "contact-form-service",
+      "skills_query": ["backend", "cloud"],
+      "title": "Serverless Mailer Service",
+      "short": "Layanan pengiriman pesan otomatis berbasis Serverless dan integrasi API Resend.",
+      "description": "Menjembatani komunikasi antara pengunjung dan saya melalui arsitektur serverless. Layanan ini memanfaatkan Cloudflare Workers untuk menangani pengiriman pesan secara instan dan efisien tanpa perlu mengelola server fisik, serta menggunakan Resend untuk memastikan pengiriman email yang aman dan reliabel.",
+      "tags": ["Cloudflare Workers", "Resend", "JavaScript"]
+    },
+    {
+      "id": "parking-app-cli",
+      "skills_query": ["backend", "logic"],
+      "title": "Parking CLI Tool",
+      "short": "Sistem manajemen parkir berbasis Command Line dengan mode interaktif REPL.",
+      "description": "Menghadirkan solusi manajemen slot parkir sederhana melalui terminal. Mendukung REPL maupun otomatisasi via file input. Fokus utama proyek ini adalah pada logika struktur data untuk melacak kapasitas, status kendaraan, hingga kalkulasi biaya.",
+      "tags": ["Go", "CLI"],
+      "source": "https://github.com/mfmahendr/parking-app",
+      "release": "https://github.com/mfmahendr/parking-app/releases/tag/v0.1.1"
     },
     {
       "id": "stoccounting",
+      "skills_query": ["backend"],
       "title": "Stoccounting API",
       "short": "Layanan backend untuk sistem manajemen keuangan stok barang.",
-      "description": "Stoccounting adalah layanan backend untuk aplikasi sistem manajemen keuangan stok barang dagang. Aplikasi ini digunakan untuk memantau arus kas, pembelian, dan penjualan stok barang pada bisnis dagang. Sistem ini dapat menghasilkan laporan keuangan seperti neraca, laporan laba rugi, dan laporan arus kas, serta menyediakan visualisasi untuk membantu bisnis memantau kesehatan keuangan dan pengelolaan stok. Backend ini dibangun sebagai bagian dari proyek akademik menggunakan Node.js, Express.js, dan MongoDB.",
+      "description": "Stoccounting adalah layanan backend untuk aplikasi sistem manajemen keuangan stok barang dagang. Aplikasi ini digunakan untuk memantau arus kas, pembelian, dan penjualan stok barang pada bisnis dagang. Sistem ini dapat menghasilkan laporan keuangan seperti neraca, laporan laba rugi, dan laporan arus kas, serta menyediakan visualisasi untuk membantu bisnis memantau kesehatan keuangan dan pengelolaan stok. Backend ini dikembangkan sebagai bagian dari proyek akademik kelompok menggunakan Node.js, Express.js, dan MongoDB.",
       "tags": ["Javascript", "Node.js", "Express.js", "MongoDB"],
       "source": "https://github.com/mfmahendr/Stoccounting"
     },
     {
+      "id": "notes-app-fullstack",
+      "skills_query": ["backend", "frontend"],
+      "title": "Notes Application",
+      "short": "Aplikasi pengelolaan catatan pribadi dengan integrasi Full-Stack JavaScript.",
+      "description": "Menghubungkan antarmuka React yang responsif dengan layanan backend Hapi Framework. Proyek ini mengedepankan implementasi RESTful API yang bersih, manajemen state di sisi klien, serta penerapan standarisasi kode menggunakan ESLint untuk menjaga kualitas dan konsistensi pengembangan. Ini merupakan final project kursus Dicoding",
+      "tags": ["React", "Hapi.js", "Node.js", "JavaScript", "RESTful API"],
+      "sources": {
+        "backend": "https://github.com/mfmahendr/notes-app-back-end",
+        "frontend": "https://github.com/mfmahendr/personal-notes-react-app"
+      }
+    },
+    {
       "id": "tanjungraja",
+      "skills_query": ["wordpress", "frontend"],
       "title": "Website Profil Desa Tanjung Raja",
       "short": "Website profil resmi Desa Tanjung Raja untuk menampilkan potensi desa secara publik.",
       "description": "Proyek ini merupakan salah satu dari lima program kerja yang saya laksanakan selama kegiatan KKN-PPM UGM pada Juni hingga Agustus 2023. Pengerjaan proyek dilakukan secara mandiri selama kurang lebih satu bulan dengan memanfaatkan platform website builder seperti WordPress. Inisiatif pembuatan website ini muncul karena sebelumnya Desa Tanjung Raja belum memiliki situs resmi, sehingga potensi desa belum dapat dipublikasikan secara luas. Hasil akhirnya adalah sebuah website resmi desa yang berisi konten informatif, terstruktur, serta telah dioptimalkan dari sisi SEO untuk meningkatkan visibilitas di mesin pencari.",
       "tags": ["Wordpress"],
-      "live": "http://tanjungraja-muaraenim.id/"
+      "live_apps": "http://tanjungraja-muaraenim.id/"
+    },
+    {
+      "id": "porto-news",
+      "skills_query": ["frontend", "ui-ux"],
+      "title": "Fadhil PortoNews",
+      "short": "Platform portofolio digital dengan estetika surat kabar klasik dan fitur multibahasa.",
+      "description": "Sebuah eksperimen desain yang memberikan nuansa vintage. Dibangun menggunakan React dan Tailwind CSS, situs ini tidak hanya mengedepankan visual unik, tetapi juga performa optimal dengan dukungan internasionalisasi (i18n) untuk menjangkau audiens secara lebih personal.",
+      "tags": ["React", "Vite", "Tailwind CSS", "i18next"],
+      "live_apps": "http://mfadhilmahendra.my.id"
     }
   ]
 }

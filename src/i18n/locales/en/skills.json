@@ -3,7 +3,7 @@
   "headline": "Capability Columns",
   "sub": {
     "classifieds": {
-      "title": "Hardskills and Softskills",
+      "title": "Hard Skills and Soft Skills",
       "headline": "Classifieds",
       "technical": {
         "title": "Technical Skills",
@@ -11,15 +11,23 @@
         "items": [
           {
             "heading": "Need a <b>BACKEND DEVELOPER</b>?",
-            "content": "Clean APIs with solid architecture, thoughtful validation, and real-world edge case handling. Docs included. Contact me quickly!"
+            "content": "Clean APIs with <bi>thorough validation</bi> and solid system foundations using clean code. Documentation included. <b>Contact immediately!</b>"
           },
           {
-            "heading": "<b>Cloud Computing</b> Solutions...",
-            "content": "GCP and AWS specialist. Will build a cost-effective, scalable cloud infrastructure for your project. From serverless to containerized, I’ve got you covered."
+            "heading": "TOTAL FULL-STACK SOLUTIONS!",
+            "content": "From the front-end to the back-end database, everything is covered. <bi>Seamless integration</bi>, responsive design, & clean code. <b>One hand for all your digital needs!</b>"
           },
           {
-            "heading": "<b>DevOps Engineer</b> Needed?",
-            "content": "GitOps workflows. Secure CI/CD. Fewer outages, faster deployments."
+            "heading": "DOCUMENTATION... a mess?",
+            "content": "Accepting <b>Technical Writing</b> assignments. Transform complex code into easy-to-understand guides. API docs, system manuals, to workflow documentation. <bi>Clear, neat, & professional!</bi>"
+          },
+          {
+            "heading": "Cloud Computing Solutions...",
+            "content": "Proficient in <b>GCP</b> and <b>AWS</b> services. Ready to design cloud infrastructure that is <bi>cost-effective and scalable</bi>, and easy to expand as your business grows."
+          },
+          {
+            "heading": "WORDPRESS services available",
+            "content": "Fast websites, captivating designs! <bi>Custom themes</bi>, SEO optimization, & lag-free performance. Perfect for business profiles/portfolios. Turnkey solutions, ready for admin use. Contact the <blot>editorial desk</blot>!"
           }
         ]
       },
@@ -29,19 +37,19 @@
         "items": [
           {
             "heading": "Ready to Learn, Set to Shift",
-            "content": "Brings speed to skill-building. <b>Learns fast, adapts faster</b>. New frameworks, teams, or domains aren't a roadblock."
+            "content": "Driven by high curiosity. <biu>Learns fast, adapts faster</biu>. New frameworks, new teams, or unfamiliar domains are not obstacles—they are challenges."
           },
           {
-            "heading": "This Engineer Is A <b>Critical Thinker</b>",
-            "content": "Now available: a thoughtful engineer. Brings practical thinking by combining logical analysis with real-world constraints. Identifies edge cases before they break and connects dots others miss."
+            "heading": "This Engineer Is A CRITICAL Thinker",
+            "content": "A sharp engineer capable of <b>analyzing logically and realistically</b>. Identifies risks before they occur and spots the dots that others sometimes miss."
           },
           {
-            "heading": "Sees what others skip",
-            "content": "He notices things others miss. Consistency in code and clarity in setup aren’t extras—they’re part of the job. Every little thing is the big picture. His <b>attention to detail</b> is your project`s safety net."
+            "heading": "Seeing What Others Skip",
+            "content": "<bi>Attention to detail</bi> is paramount! This individual notices the <biu>'technical'</biu> nuances often ignored. Code consistency and neat structures <blot>are the standard</blot>..."
           },
           {
-            "heading": "<b>LANGUAGES</b> SPOKEN",
-            "content": "Now available for global teams. <b>English/Indonesian</b> fluent. Bridges gaps between teams and timezones."
+            "heading": "LANGUAGE PROFICIENCY",
+            "content": "Ready for global teams. Fluent in Indonesian & English. <filler>Bridging the gap</filler> in technical communication across time zones."
           }
         ]
       }

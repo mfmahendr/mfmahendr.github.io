@@ -29,5 +29,8 @@
       "title": "Submission Failed",
       "message": "There was an error sending your message. Please try again later."
     }
+  },
+  "ads": {
+    "for_rent": "AVail. Space For Rent"
   }
 }

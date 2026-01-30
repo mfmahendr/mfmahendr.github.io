@@ -10,16 +10,24 @@
         "headline": "Jasa",
         "items": [
           {
-            "heading": "Butuh PENGEMBANG BACKEND?",
-            "content": "API bersih dengan validasi menyeluruh, dan penanganan edge-case dunia nyata. Termasuk dokumentasi. Hubungi segera!"
+            "heading": "Butuh <b>PENGEMBANG BACKEND</b>?",
+            "content": "API bersih dengan <bi>validasi menyeluruh</bi>, dan fondasi sistem yang solid dengan kode yang bersih. Termasuk dokumentasi. <b>Hubungi segera!</b>"
+          },
+          {
+            "heading": "SOLUSI FULL-STACK TOTAL!",
+            "content": "Dari tampilan depan hingga database belakang, semua beres. <bi>Integrasi mulus</bi>, desain responsif, & kode bersih. <b>Satu tangan untuk semua kebutuhan digital Anda!</b>"
+          },
+          {
+            "heading": "DOKUMENTASI... gak jelas?",
+            "content": "Terima jasa <b>Technical Writing</b>. Ubah kode rumit jadi panduan yang mudah dipahami. Dokumentasi API, manual sistem, hingga dokumentasi alur kerja. <bi>Jelas, rapi, & profesional!</bi>"
           },
           {
             "heading": "Solusi Cloud Computing...",
-            "content": "Memahami layanan-layanan di GCP dan AWS. Siap membangun infrastruktur cloud yang hemat biaya dan scalable, dari sistem serverless hingga containerization."
+            "content": "Memahami layanan-layanan di <b>GCP</b> dan <b>AWS</b>. Siap merancang infrastruktur cloud yang <bi>hemat biaya dan scalable</bi>, dan mudah dikembangkan sesuai pertumbuhan bisnis."
           },
           {
-            "heading": "Perlu Engineer DevOps?",
-            "content": "Alur kerja GitOps. CI/CD aman. Waktu henti lebih sedikit, deployment lebih cepat."
+            "heading": "terima jasa WORDPRESS",
+            "content": "Website kilat, desain memikat! <bi>Custom tema</bi>, optimasi SEO, & bebas lemot. Cocok untuk profil bisnis/portofolio. Terima beres, admin tinggal pakai. Hubungi <blot>redaksi</blot>!"
           }
         ]
       },
@@ -29,19 +37,19 @@
         "items": [
           {
             "heading": "Siap Belajar, Siap Berubah",
-            "content": "Cepat dalam membangun keterampilan. <biu>belajar cepat, adaptasi lebih cepat</biu>. framework baru, tim baru, atau domain asing bukan halangan."
+            "content": "Memiliki rasa ingin tahu yang tinggi. <biu>belajar cepat, adaptasi lebih cepat</biu>. framework baru, tim baru, atau domain asing bukan hambatan, melainkan tantangan."
           },
           {
             "heading": "Engineer Ini Adalah Pemikir KRITIS",
-            "content": "Engineer yang tajam, mampu <b>menganalisis secara logis dan realistis</b>. Mengenali risiko sebelum terjadi, dan menghubungkan titik-titik yang luput dari perhatian."
+            "content": "Seorangn engineer yang tajam, mampu <b>menganalisis secara logis dan realistis</b>. Mengenali risiko sebelum terjadi, dan menemukan titik-titik yang kadang luput dari perhatian."
           },
           {
             "heading": "Melihat Yang Tak Terlihat",
-            "content": "Ia memperhatikan hal-hal yang sering diabaikan. Konsistensi kode dan kejelasan setup adalah standar. <bi>Attention to detail</bi> adalah jaring pengaman proyek Anda."
+            "content": "<bi>Attention to detail</bi> merupakan hal penting!! Orang ini mampu memperhatikan hal-hal <biu>'teknis'</biu> yang kadang diabaikan. Konsistensi kode dan struktur yang rapi <blot>adalah standar</blot>..."
           },
           {
             "heading": "KEMAMPUAN BAHASA",
-            "content": "Siap untuk tim global. Fasih Bahasa Inggris & Indonesia. Menjembatani kesenjangan komunikasi lintas zona waktu dan budaya."
+            "content": "Siap untuk tim global. Fasih Indonesia & Inggris. <filler>Menjembatani kesenjangan</filler> komunikasi teknis lintas zona waktu."
           }
         ]
       }
@@ -49,7 +57,7 @@
     "tools": {
       "title": "Teknologi & Alat",
       "headline": "Tukar Perangko",
-      "intro": "<i>Perangko tersedia untuk 'ditukar'! Tukar dengan tawaran peran di proyek, ide, atau pekerjaan.</i>",
+      "intro": "<i>Perangko tersedia untuk 'ditukar'! Tukar dengan tawaran proyek atau ide.</i>",
       "footer": "Ajukan penawaranmu di <smudge>meja redaksi</smudge>!"
     }
   }
