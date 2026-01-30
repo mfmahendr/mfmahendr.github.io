@@ -7,7 +7,7 @@
       "title": "Professional Interests",
       "headline": "Topics of Interest",
       "published": "Added to the collection on the <blot>xth</blot> Day of <filler><blot>month</blot></filler>, 2026",
-      "intro": "This <str>cabinet of curiosities</str> is where the topics currently sparking my interest and curiosity are 'stored'.",
+      "intro": "This <str>cabinet</str> of curiosities is where the topics currently sparking my interest and curiosity are 'stored'.",
       "intro_correct_word": "column",
       "lists": [
         "<b>Cloud-native backend development</b>: Building robust backend systems using microservices and container orchestration.",
