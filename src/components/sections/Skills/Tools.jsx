@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { useTranslation, Trans } from "react-i18next";
 import { stampTags, stamps } from "../../../assets/data/skillStamps";
 import Stamp from "./Stamp";
