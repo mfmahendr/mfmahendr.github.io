@@ -6,8 +6,7 @@ import { ImageWithAttribution } from "../../ui/ImageWithAttribution";
 const About = () => {
   const { t } = useTranslation("about");
   const queryId =
-    new URLSearchParams(window.location.search).get("job_exp") ||
-    "backend_cloud";
+    new URLSearchParams(window.location.search).get("job_exp") || "software";
 
   const articles = t("articles", { returnObjects: true });
 
