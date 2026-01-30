@@ -74,6 +74,14 @@ export const stamps = [
     logo: "postgresql-white.svg",
   },
   {
+    title: "SQL Server",
+    category: "Database",
+    tags: ["database", "sql", "storage", "backend"],
+    color: "#d64c4c",
+    bgcolor: "#d64c4c",
+    logo: "microsoftsqlserver.svg",
+  },
+  {
     title: "MongoDB",
     category: "Database",
     tags: ["database", "nosql", "storage", "backend"],
@@ -98,14 +106,14 @@ export const stamps = [
     logo: "redis-white.svg",
   },
   // // Messaging & Streaming
-  {
-    title: "Kafka",
-    category: "Messaging",
-    tags: ["messaging", "streaming", "data", "backend", "infrastructure"],
-    color: "#231F20",
-    bgcolor: "#231F20",
-    logo: "apachekafka.svg",
-  },
+  // {
+  //   title: "Kafka",
+  //   category: "Messaging",
+  //   tags: ["messaging", "streaming", "data", "backend", "infrastructure"],
+  //   color: "#231F20",
+  //   bgcolor: "#231F20",
+  //   logo: "apachekafka.svg",
+  // },
 
   // APIs & Protocols
   {
