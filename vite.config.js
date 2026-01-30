@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
-import viteImagemin from 'vite-plugin-imagemin'
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -9,30 +9,17 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    viteImagemin({
-      gifsicle: {
-        optimizationLevel: 7,
-        interlaced: false,
-      },
-      optipng: {
-        optimizationLevel: 7,
-      },
-      mozjpeg: {
-        quality: 75, // sesuaikan kualitas (0-100)
-      },
-      pngquant: {
-        quality: [0.65, 0.8],
-        speed: 4,
-      },
-      svgo: {
+    ViteImageOptimizer({
+      png: { quality: 75 },
+      jpeg: { quality: 70 },
+      webp: { quality: 75 },
+      avif: { quality: 70 },
+      svg: {
         plugins: [
-          { name: 'removeViewBox' },
-          { name: 'removeEmptyAttrs', active: false },
+          { name: 'removeViewBox', active: false },
+          { name: 'sortAttrs' },
         ],
       },
-      webp: {
-        quality: 75,
-      },
-    }),
+    })
   ]
 })
