@@ -1,6 +1,7 @@
 import { useTranslation, Trans } from "react-i18next";
 import { useMemo } from "react";
 import { textComponents } from "../../../i18n/utils/Components";
+import { ImageWithAttribution } from "../../ui/ImageWithAttribution";
 
 const About = () => {
   const { t } = useTranslation("about");
@@ -25,14 +26,20 @@ const About = () => {
 
       <div className="relative leading-relaxed mb-4">
         {/* picture */}
-        <div className="md:float-right mx-auto md:ml-6 mb-4 w-48 md:w-1/4 sm:w-2/5 border border-black p-1">
-          <img
-            src={t("image.src")}
-            alt={t("image.alt")}
-            className="w-full h-auto object-cover"
-          />
-          <div className="p-2 border-t border-black text-center text-xs italic">
-            <p>M. Fadhil Mahendra</p>
+        <div className="relative leading-relaxed mb-4">
+          <div className="md:float-right mx-auto md:ml-6 mb-4 w-48 md:w-1/4 sm:w-2/5 border border-black p-1">
+            <ImageWithAttribution
+              src={t("image.src")}
+              alt={t("image.alt")}
+              caption="M. Fadhil Mahendra"
+              attribution={{
+                author: "chenyuee.e @Instagram",
+                source: { label: "Private commission", url: null },
+                license: "Copyright transferred (exclusive rights)",
+              }}
+              imgClassName="w-full h-auto object-cover"
+              captionClassName="border-t border-black"
+            />
           </div>
         </div>
 

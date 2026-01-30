@@ -1,8 +1,14 @@
 import { Trans, useTranslation } from "react-i18next";
 import { inkComponents, textComponents } from "../../../i18n/utils/Components";
+import { learningIllustrations } from "../../../assets/data/illustrationsData";
+import { ImageWithAttribution } from "../../ui/ImageWithAttribution";
 
 export default function LearningSection() {
   const { t } = useTranslation("interests");
+  const illustration =
+    learningIllustrations[
+      Math.floor(Math.random() * learningIllustrations.length)
+    ];
 
   return (
     <article
@@ -19,10 +25,12 @@ export default function LearningSection() {
         />
       </p>
       {/* Ilustrasi */}
-      <img
-        src="/images/illustration/learning-illustration.png"
-        alt="A Man Learning Things"
-        className="w-56 object-cover mb-4 mx-auto"
+      <ImageWithAttribution
+        src={`/images/illustration/${illustration.file}`}
+        alt={t("sub.learning.img_alt", "A person learning")}
+        caption={t("sub.learning.img_caption", "A Man Learning Things")}
+        attribution={illustration.attribution}
+        imgClassName="w-56 object-cover mb-4 mx-auto"
       />
 
       <p className="font-serif leading-relaxed mb-6 first-letter:float-left first-letter:text-6xl first-letter:font-newspaper-title first-letter:mr-2 first-letter:mt-1">
