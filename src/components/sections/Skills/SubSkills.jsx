@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useTranslation, Trans } from "react-i18next";
-import { textComponents } from "../../../i18n/utils/Components";
+import { textComponents, inkComponents } from "../../../i18n/utils/Components";
 
 export default function SubSkills({ type, titleKey, headlineKey }) {
   const [activeCols, setActiveCols] = useState(false);
@@ -21,8 +21,10 @@ export default function SubSkills({ type, titleKey, headlineKey }) {
     };
   }, []);
 
-  const { t } = useTranslation("skills");
-  const rawItems = t(`sub.classifieds.${type}.items`, { returnObjects: true });
+  const { t } = useTranslation(["common", "skills"]);
+  const rawItems = t(`skills:sub.classifieds.${type}.items`, {
+    returnObjects: true,
+  });
   const items = Array.isArray(rawItems) ? rawItems : [];
 
   const itemCount = items.length;
@@ -40,8 +42,10 @@ export default function SubSkills({ type, titleKey, headlineKey }) {
 
   return (
     <section className="py-0">
-      <h5 className="m-2">{t(titleKey)}</h5>
-      <h3 className="tracking-widest uppercase m-2">{t(headlineKey)}</h3>
+      <h5 className="m-2">{t(`skills:${titleKey}`)}</h5>
+      <h3 className="tracking-widest uppercase m-2">
+        {t(`skills:${headlineKey}`)}
+      </h3>
 
       <div
         className="grid divide-y md:divide-y-0 md:divide-x divide-black text-[0.83rem] leading-tight"
@@ -56,7 +60,7 @@ export default function SubSkills({ type, titleKey, headlineKey }) {
               <h4 className="block w-full px-1 py-2 mb-1 bg-black text-[#fdfdfd] font-bold">
                 <Trans
                   i18nKey={`skills:sub.classifieds.${type}.items.${index}.heading`}
-                  components={textComponents}
+                  components={{ ...textComponents, ...inkComponents }}
                 >
                   {item.heading}
                 </Trans>
@@ -64,7 +68,7 @@ export default function SubSkills({ type, titleKey, headlineKey }) {
               <p className="p-1">
                 <Trans
                   i18nKey={`skills:sub.classifieds.${type}.items.${index}.content`}
-                  components={textComponents}
+                  components={{ ...textComponents, ...inkComponents }}
                 >
                   {item.content}
                 </Trans>
@@ -77,7 +81,7 @@ export default function SubSkills({ type, titleKey, headlineKey }) {
 
         {needsPlaceholder && (
           <article className="flex items-center justify-center border border-dashed border-gray-400 text-gray-500 italic text-sm p-4">
-            Iklan disewakan
+            """{t("common:ads.for_rent")}"""
           </article>
         )}
       </div>
