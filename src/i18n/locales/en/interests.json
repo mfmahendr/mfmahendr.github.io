@@ -11,8 +11,7 @@
       "intro_correct_word": "column",
       "lists": [
         "<b>Cloud-native backend development</b>: Building robust backend systems using microservices and container orchestration.",
-        "<b>DevOps automation & containerization</b>: Automating CI/CD pipelines with tools like GitHub Actions, Docker, and Kubernetes.",
-        "<b>Clean architecture</b>: Implementing architectures designed for long-term code maintainability."
+        "<b>DevOps automation & containerization</b>: Automating CI/CD pipelines with tools like GitHub Actions, Docker, and Kubernetes."
       ]
     },
     "learning": {
@@ -20,12 +19,7 @@
       "headline": "A Look Into What Fadhil is Learning Right Now",
       "published": "Last modified on <bi>January 29th, 2026</bi>",
       "intro": "A software developer with an ongoing interest in cloud computing, backend development, and DevOps, is currently concentrating on several technical topics within those domains.",
-      "topics": [
-        "Cloud Native Go - Building Reliable Services in Unreliable Environments",
-        "TUI development with Golang Bubble Tea",
-        "Utilizing Kubernetes for container orchestration",
-        "Competitive programming and various coding interview patterns"
-      ],
+      "topics": ["Nothingness"],
       "outro": "<i>“I am ready to apply everything I've learned”</i>"
     }
   }

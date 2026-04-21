@@ -11,8 +11,7 @@
       "intro_correct_word": "Ruang kemelitan",
       "lists": [
         "<b>Pengembangan backend berbasis <i>cloud-native</i></b>: Membangun sistem backend yang kuat dengan pendekatan mikroservis dan orkestrasi kontainer.",
-        "<b>Otomatisasi DevOps & kontainerisasi</b>: Mengotomatisasi alur CI/CD menggunakan alat seperti GitHub Actions, Docker, dan Kubernetes.",
-        "<b>Arsitektur <i>clean</i></b>: Mengenai arsitektur yang mempertimbangkan kodenya dalam jangka panjang."
+        "<b>Otomatisasi DevOps & kontainerisasi</b>: Mengotomatisasi alur CI/CD menggunakan alat seperti GitHub Actions, Docker, dan Kubernetes."
       ]
     },
     "learning": {
@@ -20,12 +19,7 @@
       "headline": "ARTIKEL TERBARU: Yang Saat Ini Dipelajari Fadhil",
       "published": "Terakhir diubah pada <bi>29 Januari 2026</bi>",
       "intro": "Seorang pengembang perangkat lunak, yang memiliki minat belajar dalam <i>cloud computing</i>, pengembangan backend, dan DevOps, kini tengah memusatkan perhatian pada sejumlah topik teknis di area tersebut.",
-      "topics": [
-        "Cloud Native Go - Building Reliable Services in Unreliable Environments",
-        "Pengembangan TUI dengan Golang Bubble Tea",
-        "Penggunaan Kubernetes untuk orkestrasi kontainer",
-        "Pemrograman kompetitif dan berbagai coding interview pattern"
-      ],
+      "topics": ["..."],
       "outro": "<i>“Saya siap menerapkan semua yang saya pelajari”</i>"
     }
   }
