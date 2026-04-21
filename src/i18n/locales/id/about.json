@@ -28,7 +28,7 @@
       "job_expectation": "Developer atau Programmer",
       "contents": [
         {
-          "intro": "Inilah <b>{{name}}</b>, seorang lulusan <b>{{univ}}</b> dari jurusan <b>{{major}}</b> yang memiliki antusiasme tinggi dalam dunia pengembangan perangkat lunak. Ia adalah seorang pemecah masalah yang senang mengeksplorasi berbagai teknologi untuk menghadirkan solusi digital yang inovatif."
+          "intro": "Inilah <b>{{name}}</b>, seorang lulusan program studi <b>{{major}}</b> yang memiliki antusiasme tinggi dalam dunia pengembangan perangkat lunak. Ia adalah seorang pemecah masalah yang senang mengeksplorasi berbagai teknologi untuk menghadirkan solusi digital yang inovatif."
         },
         {
           "career_goal": "Dengan pengalaman membangun berbagai aplikasi fungsional, {{name}} kini meniti karier sebagai <b>{{career}}</b>. Ia berfokus pada penulisan kode yang efisien dan berkualitas tinggi, dengan tujuan akhir menciptakan produk yang memberikan nilai nyata bagi penggunanya."
@@ -46,7 +46,7 @@
       "job_expectation": "Software Engineer",
       "contents": [
         {
-          "intro": "Kenali lebih dekat <b>{{name}}</b>, seorang <i>engineer</i> berjiwa eksploratif dengan rasa ingin tahu yang besar dan merupakan lulusan dari <b>{{univ}}</b>, di jurusan <b>{{major}}</b>. Ia memiliki minat mendalam di bidang <i>backend development</i> dan <i>cloud computing</i>."
+          "intro": "Kenali lebih dekat <b>{{name}}</b>, seorang <i>engineer</i> berjiwa eksploratif dengan rasa ingin tahu yang besar dan merupakan lulusan program studi <b>{{major}}</b>. Ia memiliki minat mendalam di bidang <i>backend development</i> dan <i>cloud computing</i>."
         },
         {
           "career_goal": "Berbekal pengalaman <i>hands-on</i> dalam membangun berbagai proyek perangkat lunak, {{name}} kini sedang mengincar peran sebagai <b>{{career}}</b> yang mampu menciptakan solusi berdampak bagi jutaan pengguna. Ia sangat menjunjung tinggi <i>software craftsmanship</i>, fokus pada penulisan kode yang bersih (<i>clean code</i>), efisien, dan siap menghadapi berbagai bentuk tantangan sistem <i>high-scale</i> yang <i>fault-tolerant</i>."
@@ -64,7 +64,7 @@
       "job_expectation": "Backend Developer atau Cloud Engineer",
       "contents": [
         {
-          "intro": "Kenali lebih dekat <b>{{name}}</b>, seorang <i>engineer</i> berjiwa eksploratif dengan rasa ingin tahu yang besar dan merupakan lulusan dari <b>{{univ}}</b>, di jurusan <b>{{major}}</b>. Ia memiliki minat mendalam di bidang <i>backend development</i> dan <i>cloud computing</i>."
+          "intro": "Kenali lebih dekat <b>{{name}}</b>, seorang <i>engineer</i> berjiwa eksploratif dengan rasa ingin tahu yang besar dan merupakan lulusan program studi <b>{{major}}</b>. Ia memiliki minat mendalam di bidang <i>backend development</i> dan <i>cloud computing</i>."
         },
         {
           "career_goal": "Berbekal pengalaman <i>hands-on</i> dalam membangun sistem backend yang <i>scalable</i>, {{name}} kini sedang meniti karier sebagai <b>{{career}}</b>. Setiap karyanya dibangun di atas prinsip kejelasan, keandalan, dan efisiensi eksekusi."
@@ -82,7 +82,7 @@
       "job_expectation": "Backend Developer",
       "contents": [
         {
-          "intro": "Inilah <b>{{name}}</b>, seorang <i>software engineer</i> lulusan <b>{{univ}}</b> jurusan <b>{{major}}</b> yang memiliki gairah besar dalam memecahkan logika kompleks. Ia memfokuskan keahliannya pada pengembangan sisi server, arsitektur database, dan efisiensi pemrosesan data."
+          "intro": "Inilah <b>{{name}}</b>, seorang <i>software engineer</i> lulusan program studi <b>{{major}}</b> yang memiliki gairah besar dalam memecahkan logika kompleks. Ia memfokuskan keahliannya pada pengembangan sisi server, arsitektur database, dan efisiensi pemrosesan data."
         },
         {
           "career_goal": "Berbekal pengalaman <i>hands-on</i> dalam membangun sistem backend melalui berbagai proyek portofolionya, {{name}} kini meniti karier sebagai <b>{{career}}</b>. Ia berkomitmen menciptakan kode yang bersih (<i>clean code</i>) dan performa tinggi untuk mendukung fungsionalitas aplikasi yang andal bagi pengguna."
@@ -100,7 +100,7 @@
       "job_expectation": "Cloud Engineer / DevOps",
       "contents": [
         {
-          "intro": "Kenali lebih dekat <b>{{name}}</b>, seorang lulusan <b>{{univ}}</b> di bidang <b>{{major}}</b> yang memiliki minat mendalam pada infrastruktur modern. Fokus utamanya adalah memastikan aplikasi berjalan di lingkungan yang stabil, aman, dan siap menghadapi beban trafik yang tinggi."
+          "intro": "Kenali lebih dekat <b>{{name}}</b>, seorang lulusan program studi <b>{{major}}</b> yang memiliki minat mendalam pada infrastruktur modern. Fokus utamanya adalah memastikan aplikasi berjalan di lingkungan yang stabil, aman, dan siap menghadapi beban trafik yang tinggi."
         },
         {
           "career_goal": "Dengan pengalaman mempelajari dan mengelola layanan cloud lintas platform yang mencakup AWS dan Azure selama perkuliahan, serta GCP melalui program Bangkit Cloud Computing Learning Path, {{name}} kini meniti karier sebagai <b>{{career}}</b>. Ia berfokus pada implementasi teknologi <i>cloud-native</i> di lingkungan GCP untuk membangun sistem yang <i>highly available</i> dan <i>fault-tolerant</i>, didukung oleh pengalaman <i>deployment</i> pada beberapa proyek portofolio."
