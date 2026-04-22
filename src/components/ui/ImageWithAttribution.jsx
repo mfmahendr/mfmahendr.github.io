@@ -19,7 +19,7 @@ export function ImageWithAttribution({
         cursor-pointer select-none
       "
     >
-      ©
+      C
     </span>
   );
 
