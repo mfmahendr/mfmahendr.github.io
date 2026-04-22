@@ -64,10 +64,9 @@ export default function Pursuits() {
           {t("sub.pursuits.headline")}
         </h3>
 
-        <ul className="space-y-3 pl-4">
+        <ul className="space-y-3 pl-4 list-disc">
           {lists?.map((item, idx) => (
             <li key={idx} className="relative pl-6">
-              <span className="absolute left-0">◆</span>
               <Trans
                 i18nKey={`interests:sub.pursuits.lists.${idx}`}
                 components={textComponents}

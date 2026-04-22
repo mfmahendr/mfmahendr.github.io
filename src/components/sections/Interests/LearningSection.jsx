@@ -48,9 +48,9 @@ export default function LearningSection() {
         <h3 className="text-xl mb-3 flex items-center">
           Topics Under Exploration:
         </h3>
-        <ol className="space-y-3 pl-8 font-serif">
+        <ol className="space-y-3 pl-8 font-serif list-disc">
           {t("sub.learning.topics", { returnObjects: true }).map((_, idx) => (
-            <li key={idx} className="relative">
+            <li key={idx} className="relative pl-6">
               <Trans
                 i18nKey={`sub.learning.topics.${idx}`}
                 t={t}
