@@ -17,7 +17,8 @@ const Availability = () => {
   return (
     <section
       id="status"
-      className="border-2 border-black md:border-t-0 md:border-r-0 md:border-b-0 p-4 h-full flex flex-col md:col-span-2"
+      // className="border-2 border-black md:border-t-0 md:border-r-0 md:border-b-0 p-4 h-full flex flex-col md:col-span-2"
+      className="border-2 border-black md:border-t-0 md:border-r-0 md:border-b-0 p-4 h-full flex flex-col md:col-span-2 ink-bleed-svg faded-ink"
     >
       <h5 className="text-center">
         {t("sub.availability.title", "Availability Status")}
@@ -45,7 +46,8 @@ const Availability = () => {
           />
         </div>
         <article className="text-sm leading-relaxed flex-1 text-center sm:text-left">
-          <h3 className="text-lg pb-1">
+          {/* <h3 className="text-lg pb-1"> */}
+          <h3 className="text-lg pb-1 filler-text">
             {t(
               `sub.availability.${availabilityStatus}.lead`,
               "LOCAL DEV DECLARES “READY TO WORK!”",
